@@ -1,0 +1,952 @@
+{
+  "totalImages": 403,
+  "mappedImages": 108,
+  "updatedCount": 108,
+  "mappings": [
+    {
+      "image": "colombo-01.jpg",
+      "gradeId": "l",
+      "gradeName": "L",
+      "score": 10
+    },
+    {
+      "image": "daihatsu-mira-01.jpg",
+      "gradeId": "daihatsu",
+      "gradeName": "Daihatsu",
+      "score": 12
+    },
+    {
+      "image": "ford-ranger(raptor)-01.jpg",
+      "gradeId": "ford",
+      "gradeName": "Ford",
+      "score": 12
+    },
+    {
+      "image": "ford-ranger(raptor)-02.jpg",
+      "gradeId": "g",
+      "gradeName": "G",
+      "score": 10
+    },
+    {
+      "image": "foton-bus-01.jpg",
+      "gradeId": "foton",
+      "gradeName": "Foton",
+      "score": 12
+    },
+    {
+      "image": "honda-city-01.jpg",
+      "gradeId": "honda",
+      "gradeName": "Honda",
+      "score": 12
+    },
+    {
+      "image": "honda-vezel-01.jpg",
+      "gradeId": "vezel",
+      "gradeName": "Vezel",
+      "score": 27
+    },
+    {
+      "image": "kia-sonet-01.jpg",
+      "gradeId": "kia",
+      "gradeName": "Kia",
+      "score": 12
+    },
+    {
+      "image": "mazda-scrum-01.jpg",
+      "gradeId": "mazda",
+      "gradeName": "Mazda",
+      "score": 12
+    },
+    {
+      "image": "mazda-scrum-02.jpg",
+      "gradeId": "scrum",
+      "gradeName": "SCRUM",
+      "score": 12
+    },
+    {
+      "image": "mitsubishi-outlander-01.jpg",
+      "gradeId": "mitsubishi",
+      "gradeName": "Mitsubishi",
+      "score": 12
+    },
+    {
+      "image": "nissan-almera-01.jpg",
+      "gradeId": "nissan",
+      "gradeName": "Nissan",
+      "score": 12
+    },
+    {
+      "image": "nissan-x-trail-01.jpg",
+      "gradeId": "x",
+      "gradeName": "X",
+      "score": 10
+    },
+    {
+      "image": "suzuki-alto-01.jpg",
+      "gradeId": "suzuki",
+      "gradeName": "Suzuki",
+      "score": 12
+    },
+    {
+      "image": "suzuki-alto-02.jpg",
+      "gradeId": "alto",
+      "gradeName": "ALTO",
+      "score": 12
+    },
+    {
+      "image": "suzuki-every-01.jpg",
+      "gradeId": "every",
+      "gradeName": "EVERY",
+      "score": 12
+    },
+    {
+      "image": "suzuki-spacia-01.jpg",
+      "gradeId": "spacia",
+      "gradeName": "SPACIA",
+      "score": 12
+    },
+    {
+      "image": "suzuki-spacia-02.jpg",
+      "gradeId": "pa",
+      "gradeName": "PA",
+      "score": 10
+    },
+    {
+      "image": "toyota-aqua-2025-01.jpg",
+      "gradeId": "aqua-2025",
+      "gradeName": "AQUA 2025",
+      "score": 34
+    },
+    {
+      "image": "toyota-aqua-2025-02.jpg",
+      "gradeId": "toyota-aqua-special-edition-z-raffine",
+      "gradeName": "TOYOTA - AQUA - SPECIAL EDITION Z RAFFINE",
+      "score": 24
+    },
+    {
+      "image": "toyota-aqua-2025-03.jpg",
+      "gradeId": "toyota-aqua-z",
+      "gradeName": "TOYOTA - AQUA - Z",
+      "score": 24
+    },
+    {
+      "image": "toyota-aqua-2025-04.jpg",
+      "gradeId": "toyota-aqua-g",
+      "gradeName": "TOYOTA - AQUA - G",
+      "score": 24
+    },
+    {
+      "image": "toyota-aqua-2025-05.jpg",
+      "gradeId": "toyota-aqua-x",
+      "gradeName": "TOYOTA - AQUA - X",
+      "score": 24
+    },
+    {
+      "image": "toyota-corolla-2025-01.jpg",
+      "gradeId": "corolla-2025",
+      "gradeName": "COROLLA 2025",
+      "score": 19
+    },
+    {
+      "image": "toyota-corolla-2025-02.jpg",
+      "gradeId": "toyota",
+      "gradeName": "Toyota",
+      "score": 12
+    },
+    {
+      "image": "toyota-corolla-2025-03.jpg",
+      "gradeId": "corolla-axio-2025",
+      "gradeName": "COROLLA   AXIO 2025",
+      "score": 9
+    },
+    {
+      "image": "toyota-corolla-axio-2025-01.jpg",
+      "gradeId": "toyota-corolla-axio-ex",
+      "gradeName": "TOYOTA - COROLLA AXIO - EX",
+      "score": 11
+    },
+    {
+      "image": "toyota-corolla-cross-2025-01.jpg",
+      "gradeId": "corolla-cross-2025",
+      "gradeName": "COROLLA CROSS 2025",
+      "score": 21
+    },
+    {
+      "image": "toyota-corolla-cross-2025-02.jpg",
+      "gradeId": "toyota-corolla-cross-z",
+      "gradeName": "TOYOTA - COROLLA CROSS - Z",
+      "score": 11
+    },
+    {
+      "image": "toyota-corolla-cross-2025-03.jpg",
+      "gradeId": "toyota-corolla-cross-s",
+      "gradeName": "TOYOTA - COROLLA CROSS - S",
+      "score": 11
+    },
+    {
+      "image": "toyota-corolla-cross-2025-04.jpg",
+      "gradeId": "toyota-corolla-cross-g",
+      "gradeName": "TOYOTA - COROLLA CROSS - G",
+      "score": 11
+    },
+    {
+      "image": "toyota-corolla-filder-01.jpg",
+      "gradeId": "corolla-filder",
+      "gradeName": "COROLLA FILDER",
+      "score": 19
+    },
+    {
+      "image": "toyota-corolla-filder-02.jpg",
+      "gradeId": "toyota-corolla-wxb",
+      "gradeName": "TOYOTA - COROLLA - WXB",
+      "score": 9
+    },
+    {
+      "image": "toyota-corolla-filder-03.jpg",
+      "gradeId": "toyota-corolla-g",
+      "gradeName": "TOYOTA - COROLLA - G",
+      "score": 9
+    },
+    {
+      "image": "toyota-corolla-filder-04.jpg",
+      "gradeId": "toyota-corolla-x",
+      "gradeName": "TOYOTA - COROLLA - X",
+      "score": 9
+    },
+    {
+      "image": "toyota-corolla-touring--01.jpg",
+      "gradeId": "corolla-touring",
+      "gradeName": "COROLLA TOURING",
+      "score": 19
+    },
+    {
+      "image": "toyota-corolla-touring--02.jpg",
+      "gradeId": "toyota-corolla-touring-w-x-b",
+      "gradeName": "TOYOTA COROLLA TOURING - W X B",
+      "score": 11
+    },
+    {
+      "image": "toyota-corolla-touring--03.jpg",
+      "gradeId": "toyota-corolla-touring-g",
+      "gradeName": "TOYOTA COROLLA TOURING - G",
+      "score": 11
+    },
+    {
+      "image": "toyota-hilux-01.jpg",
+      "gradeId": "toyota-pixis-g-sa-iii-",
+      "gradeName": "Toyota - Pixis - G “SA III”",
+      "score": 7
+    },
+    {
+      "image": "toyota-hilux-02.jpg",
+      "gradeId": "toyota-pixis-x-sa-iii-",
+      "gradeName": "Toyota - Pixis - X ''SA III''",
+      "score": 7
+    },
+    {
+      "image": "toyota-lc-250-01.jpg",
+      "gradeId": "toyota-pixis-l-sa-iii-",
+      "gradeName": "Toyota - Pixis - L ''SA III''",
+      "score": 7
+    },
+    {
+      "image": "toyota-lc-250-02.jpg",
+      "gradeId": "toyota-pixis-b-sa-iii-",
+      "gradeName": "Toyota - Pixis - B ''SA III''",
+      "score": 7
+    },
+    {
+      "image": "toyota-lc-250-03.jpg",
+      "gradeId": "toyota-aqua-gr-sport",
+      "gradeName": "TOYOTA - AQUA - GR SPORT",
+      "score": 7
+    },
+    {
+      "image": "toyota-lc-300-01.jpg",
+      "gradeId": "toyota-yaris-g",
+      "gradeName": "TOYOTA - YARIS - G",
+      "score": 7
+    },
+    {
+      "image": "toyota-lc-300-02.jpg",
+      "gradeId": "toyota-yaris-x",
+      "gradeName": "TOYOTA - YARIS - X",
+      "score": 7
+    },
+    {
+      "image": "toyota-lc-300-03.jpg",
+      "gradeId": "toyota-roomy-custom-gt",
+      "gradeName": "TOYOTA - ROOMY - CUSTOM GT",
+      "score": 7
+    },
+    {
+      "image": "toyota-lc-300-04.jpg",
+      "gradeId": "toyota-roomy-custom-g",
+      "gradeName": "TOYOTA - ROOMY - CUSTOM - G",
+      "score": 7
+    },
+    {
+      "image": "toyota-lc-300-05.jpg",
+      "gradeId": "toyota-roomy-gt",
+      "gradeName": "TOYOTA - ROOMY - GT",
+      "score": 7
+    },
+    {
+      "image": "toyota-lc-300-06.jpg",
+      "gradeId": "toyota-roomy-g",
+      "gradeName": "TOYOTA - ROOMY - G",
+      "score": 7
+    },
+    {
+      "image": "toyota-lc-300-07.jpg",
+      "gradeId": "toyota-roomy-x",
+      "gradeName": "TOYOTA - ROOMY - X",
+      "score": 7
+    },
+    {
+      "image": "toyota-lc-300-08.jpg",
+      "gradeId": "toyota-prius-x",
+      "gradeName": "TOYOTA - PRIUS - X",
+      "score": 7
+    },
+    {
+      "image": "toyota-lc-300-09.jpg",
+      "gradeId": "toyota-prius-u",
+      "gradeName": "TOYOTA - PRIUS - U",
+      "score": 7
+    },
+    {
+      "image": "toyota-lc-300-10.jpg",
+      "gradeId": "toyota-raize-z",
+      "gradeName": "TOYOTA - RAIZE - Z",
+      "score": 7
+    },
+    {
+      "image": "toyota-lc-300-11.jpg",
+      "gradeId": "toyota-raize-g",
+      "gradeName": "TOYOTA - RAIZE - G",
+      "score": 7
+    },
+    {
+      "image": "toyota-lc-300-12.jpg",
+      "gradeId": "toyota-raize-x",
+      "gradeName": "TOYOTA - RAIZE - X",
+      "score": 7
+    },
+    {
+      "image": "toyota-lc-300-13.jpg",
+      "gradeId": "toyota-yaris-cross-gr-sport",
+      "gradeName": "TOYOTA - YARIS CROSS - GR SPORT",
+      "score": 7
+    },
+    {
+      "image": "toyota-lc-300-14.jpg",
+      "gradeId": "toyota-yaris-cross-z-adventure",
+      "gradeName": "TOYOTA - YARIS CROSS - Z ADVENTURE",
+      "score": 7
+    },
+    {
+      "image": "toyota-pixis-2025-01.jpg",
+      "gradeId": "pixis-2025",
+      "gradeName": "PIXIS 2025",
+      "score": 34
+    },
+    {
+      "image": "toyota-pixis-2025-02.jpg",
+      "gradeId": "yaris-2025",
+      "gradeName": "YARIS 2025",
+      "score": 12
+    },
+    {
+      "image": "toyota-pixis-2025-03.jpg",
+      "gradeId": "roomy-2025",
+      "gradeName": "ROOMY 2025",
+      "score": 12
+    },
+    {
+      "image": "toyota-pixis-2025-04.jpg",
+      "gradeId": "prius-2025",
+      "gradeName": "PRIUS 2025",
+      "score": 12
+    },
+    {
+      "image": "toyota-prius-2025-01.jpg",
+      "gradeId": "raize-2025",
+      "gradeName": "RAIZE 2025",
+      "score": 7
+    },
+    {
+      "image": "toyota-prius-2025-02.jpg",
+      "gradeId": "yaris-cross-2025",
+      "gradeName": "YARIS CROSS 2025",
+      "score": 7
+    },
+    {
+      "image": "toyota-raize-2025-01.jpg",
+      "gradeId": "toyota-yaris-cross-z",
+      "gradeName": "TOYOTA - YARIS CROSS - Z",
+      "score": 7
+    },
+    {
+      "image": "toyota-raize-2025-02.jpg",
+      "gradeId": "toyota-yaris-cross-g",
+      "gradeName": "TOYOTA - YARIS CROSS - G",
+      "score": 7
+    },
+    {
+      "image": "toyota-raize-2025-03.jpg",
+      "gradeId": "toyota-yaris-cross-x",
+      "gradeName": "TOYOTA - YARIS CROSS - X",
+      "score": 7
+    },
+    {
+      "image": "toyota-rav-4-2025-01.jpg",
+      "gradeId": "rav-4-2025",
+      "gradeName": "RAV 4 2025",
+      "score": 19
+    },
+    {
+      "image": "toyota-rav-4-2025-02.jpg",
+      "gradeId": "toyota-rav-4-z",
+      "gradeName": "TOYOTA - RAV 4 - Z",
+      "score": 9
+    },
+    {
+      "image": "toyota-rav-4-2025-03.jpg",
+      "gradeId": "toyota-rav-4-g",
+      "gradeName": "TOYOTA - RAV 4 - G",
+      "score": 9
+    },
+    {
+      "image": "toyota-rav-4-2025-04.jpg",
+      "gradeId": "toyota-rav-4-adventure",
+      "gradeName": "TOYOTA - RAV 4 - Adventure",
+      "score": 9
+    },
+    {
+      "image": "toyota-rav-4-2025-05.jpg",
+      "gradeId": "toyota-rav-4-g-z-package-",
+      "gradeName": "TOYOTA - RAV 4 - G “Z package”",
+      "score": 9
+    },
+    {
+      "image": "toyota-roomy-2025-01.jpg",
+      "gradeId": "toyota-corolla-cross-g-x-",
+      "gradeName": "TOYOTA - COROLLA CROSS - G“X”",
+      "score": 7
+    },
+    {
+      "image": "toyota-roomy-2025-02.jpg",
+      "gradeId": "toyota-rav-4-x",
+      "gradeName": "TOYOTA - RAV 4 - X",
+      "score": 7
+    },
+    {
+      "image": "toyota-roomy-2025-03.jpg",
+      "gradeId": "sienta-2025",
+      "gradeName": "SIENTA 2025",
+      "score": 7
+    },
+    {
+      "image": "toyota-roomy-2025-04.jpg",
+      "gradeId": "toyota-sienta-z",
+      "gradeName": "TOYOTA SIENTA - Z",
+      "score": 7
+    },
+    {
+      "image": "toyota-roomy-2025-05.jpg",
+      "gradeId": "toyota-sienta-g",
+      "gradeName": "TOYOTA SIENTA - G",
+      "score": 7
+    },
+    {
+      "image": "toyota-sienta-2025-01.jpg",
+      "gradeId": "toyota-sienta-x",
+      "gradeName": "TOYOTA SIENTA - X",
+      "score": 9
+    },
+    {
+      "image": "toyota-sienta-2025-02.jpg",
+      "gradeId": "toyota-corolla-touring-x",
+      "gradeName": "TOYOTA COROLLA TOURING - X",
+      "score": 7
+    },
+    {
+      "image": "toyota-sienta-2025-03.jpg",
+      "gradeId": "toyota-yaris-cross-hev-premium-luxury-thailand-",
+      "gradeName": "Toyota Yaris Cross  HEV Premium Luxury (Thailand)",
+      "score": 7
+    },
+    {
+      "image": "toyota-taisor-01.jpg",
+      "gradeId": "ex-hybrid",
+      "gradeName": "EX HYBRID",
+      "score": 5
+    },
+    {
+      "image": "toyota-yaris-2025-01.jpg",
+      "gradeId": "ex-2wd-cvt",
+      "gradeName": "EX 2WD CVT",
+      "score": 5
+    },
+    {
+      "image": "toyota-yaris-2025-02.jpg",
+      "gradeId": "ex-2wd-5mt",
+      "gradeName": "EX 2WD 5MT",
+      "score": 5
+    },
+    {
+      "image": "toyota-yaris-ativ(thailand)-01.jpg",
+      "gradeId": "ex-4wd-cvt",
+      "gradeName": "EX 4WD CVT",
+      "score": 5
+    },
+    {
+      "image": "toyota-yaris-ativ(thailand)-02.jpg",
+      "gradeId": "unknown",
+      "gradeName": "Unknown",
+      "score": 5
+    },
+    {
+      "image": "toyota-yaris-ativ(thailand)-03.jpg",
+      "gradeId": "gr-sport-3-3l-diesel-5-seater-",
+      "gradeName": "GR SPORT 3.3L Diesel (5-seater)",
+      "score": 5
+    },
+    {
+      "image": "toyota-yaris-cross(thailand)-01.jpg",
+      "gradeId": "zx-3-3l-diesel-5seats-",
+      "gradeName": "ZX 3.3L Diesel (5seats)",
+      "score": 5
+    },
+    {
+      "image": "toyota-yaris-cross(thailand)-02.jpg",
+      "gradeId": "gr-sport-3-5l-petrol-7-seater-",
+      "gradeName": "GR SPORT 3.5L petrol (7-seater)",
+      "score": 5
+    },
+    {
+      "image": "toyota-yaris-cross(thailand)-03.jpg",
+      "gradeId": "zx-3-5l-petrol-7-seater-",
+      "gradeName": "ZX 3.5L petrol (7-seater)",
+      "score": 5
+    },
+    {
+      "image": "toyota-yaris-cross(thailand)-04.jpg",
+      "gradeId": "vx-3-5l-petrol-7-seater-",
+      "gradeName": "VX 3.5L petrol (7-seater)",
+      "score": 5
+    },
+    {
+      "image": "toyota-yaris-cross(thailand)-05.jpg",
+      "gradeId": "ax-3-5l-petrol-7-seater-",
+      "gradeName": "AX 3.5L petrol (7-seater)",
+      "score": 5
+    },
+    {
+      "image": "toyota-yaris-cross(thailand)-06.jpg",
+      "gradeId": "gx-3-5l-gasoline-5-seater-",
+      "gradeName": "GX 3.5L gasoline (5-seater)",
+      "score": 5
+    },
+    {
+      "image": "toyota-yaris-cross(thailand)-07.jpg",
+      "gradeId": "zx-diesel-4wd-7-seater-",
+      "gradeName": "ZX(diesel, 4WD, 7-seater)",
+      "score": 5
+    },
+    {
+      "image": "toyota-yaris-cross(thailand)-08.jpg",
+      "gradeId": "vx-diesel-petrol-4wd-7-seater-",
+      "gradeName": "VX(diesel/Petrol 4WD, 7-seater)",
+      "score": 5
+    },
+    {
+      "image": "toyota-yaris-cross(thailand)-09.jpg",
+      "gradeId": "gx-diesel-4wd-5-seater-",
+      "gradeName": "GX(diesel 4WD, 5-seater)",
+      "score": 5
+    },
+    {
+      "image": "toyota-yaris-cross(thailand)-10.jpg",
+      "gradeId": "double-cab-4x4-2-8-gr-sport-at",
+      "gradeName": "Double Cab 4x4 2.8 GR Sport AT",
+      "score": 5
+    },
+    {
+      "image": "toyota-yaris-cross(thailand)-11.jpg",
+      "gradeId": "double-cab-4x4-2-8-rocco-at",
+      "gradeName": "Double Cab 4x4 2.8 Rocco AT",
+      "score": 5
+    },
+    {
+      "image": "toyota-yaris-cross(thailand)-12.jpg",
+      "gradeId": "suzuki-alto-hybrid-x",
+      "gradeName": "SUZUKI - ALTO - HYBRID - X",
+      "score": 5
+    },
+    {
+      "image": "toyota-yaris-cross(thailand)-13.jpg",
+      "gradeId": "suzuki-alto-hybrid-s",
+      "gradeName": "SUZUKI - ALTO - HYBRID - S",
+      "score": 5
+    },
+    {
+      "image": "toyota-yaris-cross(thailand)-14.jpg",
+      "gradeId": "suzuki-alto-l",
+      "gradeName": "SUZUKI - ALTO - L",
+      "score": 5
+    },
+    {
+      "image": "toyota-yaris-cross(thailand)-15.jpg",
+      "gradeId": "suzuki-alto-a",
+      "gradeName": "SUZUKI - ALTO - A",
+      "score": 5
+    },
+    {
+      "image": "toyota-yaris-cross(thailand)-16.jpg",
+      "gradeId": "spacia-custom-hybrid-xs-turbo",
+      "gradeName": "Spacia Custom HYBRID XS TURBO",
+      "score": 5
+    },
+    {
+      "image": "toyota-yaris-cross(thailand)-17.jpg",
+      "gradeId": "spacia-custom-hybrid-xs",
+      "gradeName": "Spacia Custom HYBRID XS",
+      "score": 5
+    },
+    {
+      "image": "toyota-yaris-cross(thailand)-18.jpg",
+      "gradeId": "spacia-custom-hybrid-gs",
+      "gradeName": "Spacia Custom HYBRID GS",
+      "score": 5
+    },
+    {
+      "image": "toyota-yaris-cross-2025-01.jpg",
+      "gradeId": "spacia-hybrid-x",
+      "gradeName": "SPACIA HYBRID X",
+      "score": 5
+    },
+    {
+      "image": "toyota-yaris-cross-2025-02.jpg",
+      "gradeId": "spacia-hybrid-g",
+      "gradeName": "SPACIA HYBRID G",
+      "score": 5
+    },
+    {
+      "image": "toyota-yaris-cross-2025-03.jpg",
+      "gradeId": "join-turbo-high-roof-2wd-cvt",
+      "gradeName": "JOIN Turbo (High Roof) 2WD/CVT",
+      "score": 5
+    },
+    {
+      "image": "toyota-yaris-cross-2025-04.jpg",
+      "gradeId": "join-high-roof-2wd-cvt",
+      "gradeName": "JOIN (High Roof) 2WD/CVT",
+      "score": 5
+    },
+    {
+      "image": "toyota-yaris-cross-2025-05.jpg",
+      "gradeId": "pc-high-roof-2wd-cvt",
+      "gradeName": "PC (high roof) 2WD/CVT",
+      "score": 5
+    }
+  ],
+  "unmappedImages": [
+    "anuradhapura-01.jpg",
+    "anuradhapura-02.jpg",
+    "anuradhapura-03.jpg",
+    "anuradhapura-04.jpg",
+    "anuradhapura-05.jpg",
+    "anuradhapura-06.jpg",
+    "anuradhapura-07.jpg",
+    "anuradhapura-08.jpg",
+    "anuradhapura-09.jpg",
+    "anuradhapura-10.jpg",
+    "anuradhapura-11.jpg",
+    "anuradhapura-12.jpg",
+    "anuradhapura-13.jpg",
+    "anuradhapura-14.jpg",
+    "anuradhapura-15.jpg",
+    "anuradhapura-16.jpg",
+    "anuradhapura-17.jpg",
+    "anuradhapura-18.jpg",
+    "anuradhapura-19.jpg",
+    "anuradhapura-20.jpg",
+    "anuradhapura-21.jpg",
+    "anuradhapura-22.jpg",
+    "anuradhapura-23.jpg",
+    "anuradhapura-24.jpg",
+    "anuradhapura-25.jpg",
+    "anuradhapura-26.jpg",
+    "anuradhapura-27.jpg",
+    "anuradhapura-28.jpg",
+    "anuradhapura-29.jpg",
+    "anuradhapura-30.jpg",
+    "anuradhapura-31.jpg",
+    "anuradhapura-32.jpg",
+    "anuradhapura-33.jpg",
+    "colombo-02.jpg",
+    "colombo-03.jpg",
+    "colombo-04.jpg",
+    "colombo-05.jpg",
+    "colombo-06.jpg",
+    "colombo-07.jpg",
+    "colombo-08.jpg",
+    "colombo-09.jpg",
+    "colombo-10.jpg",
+    "colombo-11.jpg",
+    "colombo-12.jpg",
+    "colombo-13.jpg",
+    "colombo-14.jpg",
+    "colombo-15.jpg",
+    "colombo-16.jpg",
+    "colombo-17.jpg",
+    "colombo-18.jpg",
+    "colombo-19.jpg",
+    "colombo-20.jpg",
+    "colombo-21.jpg",
+    "colombo-22.jpg",
+    "colombo-23.jpg",
+    "colombo-24.jpg",
+    "colombo-25.jpg",
+    "colombo-26.jpg",
+    "colombo-27.jpg",
+    "colombo-28.jpg",
+    "colombo-29.jpg",
+    "colombo-30.jpg",
+    "colombo-31.jpg",
+    "colombo-32.jpg",
+    "colombo-33.jpg",
+    "daihatsu-mira-02.jpg",
+    "daihatsu-mira-03.jpg",
+    "daihatsu-mira-04.jpg",
+    "daihatsu-mira-05.jpg",
+    "daihatsu-rocky-01.jpg",
+    "daihatsu-rocky-02.jpg",
+    "daihatsu-rocky-03.jpg",
+    "daihatsu-rocky-04.jpg",
+    "daihatsu-rocky-05.jpg",
+    "daihatsu-taft-01.jpg",
+    "daihatsu-taft-02.jpg",
+    "daihatsu-taft-03.jpg",
+    "daihatsu-taft-04.jpg",
+    "daihatsu-taft-05.jpg",
+    "daihatsu-taft-06.jpg",
+    "daihatsu-taft-07.jpg",
+    "daihatsu-taft-08.jpg",
+    "foton-truck-01.jpg",
+    "foton-truck-02.jpg",
+    "foton-truck-03.jpg",
+    "foton-truck-04.jpg",
+    "honda-fit-01.jpg",
+    "honda-fit-02.jpg",
+    "honda-fit-03.jpg",
+    "honda-fit-04.jpg",
+    "honda-fit-05.jpg",
+    "honda-fit-06.jpg",
+    "honda-fit-07.jpg",
+    "honda-fit-08.jpg",
+    "honda-fit-09.jpg",
+    "honda-fit-10.jpg",
+    "honda-vezel-02.jpg",
+    "honda-vezel-03.jpg",
+    "honda-vezel-04.jpg",
+    "honda-vezel-05.jpg",
+    "honda-wr-v-01.jpg",
+    "honda-wr-v-02.jpg",
+    "honda-wr-v-03.jpg",
+    "honda-wr-v-04.jpg",
+    "honda-wr-v-05.jpg",
+    "honda-wr-v-06.jpg",
+    "kandy-01.jpg",
+    "kandy-02.jpg",
+    "kandy-03.jpg",
+    "kandy-04.jpg",
+    "kandy-05.jpg",
+    "kandy-06.jpg",
+    "kandy-07.jpg",
+    "kandy-08.jpg",
+    "kandy-09.jpg",
+    "kandy-10.jpg",
+    "kandy-11.jpg",
+    "kandy-12.jpg",
+    "kandy-13.jpg",
+    "kandy-14.jpg",
+    "kandy-15.jpg",
+    "kandy-16.jpg",
+    "kandy-17.jpg",
+    "kandy-18.jpg",
+    "kandy-19.jpg",
+    "kandy-20.jpg",
+    "kandy-21.jpg",
+    "kandy-22.jpg",
+    "kandy-23.jpg",
+    "kandy-24.jpg",
+    "kandy-25.jpg",
+    "kandy-26.jpg",
+    "kandy-27.jpg",
+    "kandy-28.jpg",
+    "kandy-29.jpg",
+    "kandy-30.jpg",
+    "kandy-31.jpg",
+    "kandy-32.jpg",
+    "kandy-33.jpg",
+    "matara-01.jpg",
+    "matara-02.jpg",
+    "matara-03.jpg",
+    "matara-04.jpg",
+    "matara-05.jpg",
+    "matara-06.jpg",
+    "matara-07.jpg",
+    "matara-08.jpg",
+    "matara-09.jpg",
+    "matara-10.jpg",
+    "matara-11.jpg",
+    "matara-12.jpg",
+    "matara-13.jpg",
+    "matara-14.jpg",
+    "matara-15.jpg",
+    "matara-16.jpg",
+    "matara-17.jpg",
+    "matara-18.jpg",
+    "matara-19.jpg",
+    "matara-20.jpg",
+    "matara-21.jpg",
+    "matara-22.jpg",
+    "matara-23.jpg",
+    "matara-24.jpg",
+    "matara-25.jpg",
+    "matara-26.jpg",
+    "matara-27.jpg",
+    "matara-28.jpg",
+    "matara-29.jpg",
+    "matara-30.jpg",
+    "matara-31.jpg",
+    "matara-32.jpg",
+    "matara-33.jpg",
+    "mazda-scrum-03.jpg",
+    "mazda-scrum-04.jpg",
+    "mitsubishi-outlander-02.jpg",
+    "mitsubishi-outlander-03.jpg",
+    "mitsubishi-outlander-04.jpg",
+    "negambo-01.jpg",
+    "negambo-02.jpg",
+    "negambo-03.jpg",
+    "negambo-04.jpg",
+    "negambo-05.jpg",
+    "negambo-06.jpg",
+    "negambo-07.jpg",
+    "negambo-08.jpg",
+    "negambo-09.jpg",
+    "negambo-10.jpg",
+    "negambo-11.jpg",
+    "negambo-12.jpg",
+    "negambo-13.jpg",
+    "negambo-14.jpg",
+    "negambo-15.jpg",
+    "negambo-16.jpg",
+    "negambo-17.jpg",
+    "negambo-18.jpg",
+    "negambo-19.jpg",
+    "negambo-20.jpg",
+    "negambo-21.jpg",
+    "negambo-22.jpg",
+    "negambo-23.jpg",
+    "negambo-24.jpg",
+    "negambo-25.jpg",
+    "negambo-26.jpg",
+    "negambo-27.jpg",
+    "negambo-28.jpg",
+    "negambo-29.jpg",
+    "negambo-30.jpg",
+    "negambo-31.jpg",
+    "negambo-32.jpg",
+    "negambo-33.jpg",
+    "nissan-almera-02.jpg",
+    "nissan-almera-03.jpg",
+    "nissan-almera-04.jpg",
+    "nissan-almera-05.jpg",
+    "nissan-almera-06.jpg",
+    "nissan-almera-07.jpg",
+    "nissan-almera-08.jpg",
+    "nissan-almera-09.jpg",
+    "nissan-almera-10.jpg",
+    "nissan-almera-11.jpg",
+    "nissan-almera-12.jpg",
+    "nissan-almera-13.jpg",
+    "nissan-almera-14.jpg",
+    "nissan-almera-15.jpg",
+    "nissan-almera-16.jpg",
+    "nissan-almera-17.jpg",
+    "nissan-almera-18.jpg",
+    "nissan-almera-19.jpg",
+    "nissan-almera-20.jpg",
+    "nissan-almera-21.jpg",
+    "nissan-almera-22.jpg",
+    "nissan-almera-23.jpg",
+    "nissan-almera-24.jpg",
+    "nissan-almera-25.jpg",
+    "nissan-almera-26.jpg",
+    "nissan-almera-27.jpg",
+    "nissan-almera-28.jpg",
+    "nissan-almera-29.jpg",
+    "nissan-almera-30.jpg",
+    "nissan-almera-31.jpg",
+    "nissan-almera-32.jpg",
+    "nissan-almera-33.jpg",
+    "nissan-almera-34.jpg",
+    "nissan-almera-35.jpg",
+    "nissan-almera-36.jpg",
+    "nissan-almera-37.jpg",
+    "nissan-almera-38.jpg",
+    "nissan-almera-39.jpg",
+    "nissan-clipper-01.jpg",
+    "nissan-clipper-02.jpg",
+    "nissan-clipper-03.jpg",
+    "nissan-clipper-04.jpg",
+    "nissan-clipper-05.jpg",
+    "nissan-clipper-06.jpg",
+    "nissan-x-trail-02.jpg",
+    "nissan-x-trail-03.jpg",
+    "nissan-x-trail-04.jpg",
+    "nissan-x-trail-05.jpg",
+    "nissan-x-trail-06.jpg",
+    "nissan-x-trail-07.jpg",
+    "suzuki-alto-03.jpg",
+    "suzuki-alto-04.jpg",
+    "suzuki-every-02.jpg",
+    "suzuki-every-03.jpg",
+    "suzuki-every-04.jpg",
+    "suzuki-every-05.jpg",
+    "suzuki-hustler-01.jpg",
+    "suzuki-hustler-02.jpg",
+    "suzuki-hustler-03.jpg",
+    "suzuki-hustler-04.jpg",
+    "suzuki-hustler-05.jpg",
+    "suzuki-hustler-06.jpg",
+    "suzuki-jimny-01.jpg",
+    "suzuki-jimny-02.jpg",
+    "suzuki-jimny-03.jpg",
+    "suzuki-jimny-04.jpg",
+    "suzuki-jimny-05.jpg",
+    "suzuki-jimny-06.jpg",
+    "suzuki-mini-truck-01.jpg",
+    "suzuki-mini-truck-02.jpg",
+    "suzuki-mini-truck-03.jpg",
+    "suzuki-spacia-03.jpg",
+    "suzuki-spacia-04.jpg",
+    "suzuki-spacia-05.jpg",
+    "suzuki-swift-01.jpg",
+    "suzuki-swift-02.jpg",
+    "suzuki-swift-03.jpg",
+    "suzuki-wagon-r-01.jpg",
+    "suzuki-wagon-r-02.jpg",
+    "suzuki-wagon-r-03.jpg",
+    "suzuki-wagon-r-04.jpg",
+    "suzuki-wagon-r-05.jpg",
+    "suzuki-xbee-01.jpg",
+    "suzuki-xbee-02.jpg",
+    "suzuki-xbee-03.jpg"
+  ]
+}

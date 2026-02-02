@@ -1,0 +1,128 @@
+' ============================================
+' VBA Macro to Extract Images from Excel
+' ============================================
+' Instructions:
+' 1. Open your Excel file
+' 2. Press ALT + F11 to open VBA Editor
+' 3. Insert > Module
+' 4. Paste this code
+' 5. Press F5 to run
+' ============================================
+
+Sub ExtractAllImages()
+    Dim ws As Worksheet
+    Dim shp As Shape
+    Dim imgPath As String
+    Dim imgName As String
+    Dim i As Integer
+    Dim sheetName As String
+    Dim makeModel As String
+    
+    ' Set output path (same folder as Excel file)
+    imgPath = ThisWorkbook.Path & "\vehicle-images\"
+    
+    ' Create folder if it doesn't exist
+    If Dir(imgPath, vbDirectory) = "" Then
+        MkDir imgPath
+    End If
+    
+    ' Process each worksheet
+    For Each ws In ThisWorkbook.Worksheets
+        sheetName = ws.Name
+        i = 1
+        
+        ' Extract make and model from sheet name
+        makeModel = Replace(Replace(sheetName, " - ", "-"), " ", "-")
+        makeModel = LCase(makeModel)
+        
+        ' Loop through all shapes (images) in the worksheet
+        For Each shp In ws.Shapes
+            ' Check if it's a picture
+            If shp.Type = msoPicture Or shp.Type = msoLinkedPicture Or shp.Type = msoLinkedPictureOLEEmbed Then
+                ' Generate filename: make-model-sheetname-imagenumber.jpg
+                imgName = makeModel & "-" & Format(i, "00") & ".jpg"
+                
+                ' Export the image
+                On Error Resume Next
+                shp.Copy
+                With ws.ChartObjects.Add(0, 0, shp.Width, shp.Height).Chart
+                    .Paste
+                    .Export imgPath & imgName
+                    .Parent.Delete
+                End With
+                On Error GoTo 0
+                
+                i = i + 1
+            End If
+        Next shp
+        
+        If i > 1 Then
+            Debug.Print "Extracted " & (i - 1) & " image(s) from " & sheetName
+        End If
+    Next ws
+    
+    MsgBox "Images extracted successfully!" & vbCrLf & _
+           "Location: " & imgPath & vbCrLf & _
+           "Please check the folder and rename images as needed.", vbInformation
+End Sub
+
+' ============================================
+' Alternative: Extract images with better naming
+' ============================================
+Sub ExtractImagesWithCellNames()
+    Dim ws As Worksheet
+    Dim shp As Shape
+    Dim imgPath As String
+    Dim imgName As String
+    Dim cellRef As Range
+    Dim sheetName As String
+    Dim makeModel As String
+    Dim gradeName As String
+    
+    ' Set output path
+    imgPath = ThisWorkbook.Path & "\vehicle-images\"
+    If Dir(imgPath, vbDirectory) = "" Then MkDir imgPath
+    
+    For Each ws In ThisWorkbook.Worksheets
+        sheetName = ws.Name
+        makeModel = Replace(Replace(sheetName, " - ", "-"), " ", "-")
+        makeModel = LCase(makeModel)
+        
+        For Each shp In ws.Shapes
+            If shp.Type = msoPicture Or shp.Type = msoLinkedPicture Then
+                ' Try to get grade name from nearby cell (adjust range as needed)
+                Set cellRef = ws.Range(shp.TopLeftCell.Address)
+                
+                ' Look for grade name in row 1 or 2 (adjust as needed)
+                gradeName = ""
+                If Not IsEmpty(ws.Cells(1, cellRef.Column).Value) Then
+                    gradeName = ws.Cells(1, cellRef.Column).Value
+                ElseIf Not IsEmpty(ws.Cells(2, cellRef.Column).Value) Then
+                    gradeName = ws.Cells(2, cellRef.Column).Value
+                End If
+                
+                ' Clean grade name
+                If gradeName <> "" Then
+                    gradeName = Replace(Replace(Replace(gradeName, " ", "-"), "/", "-"), "\", "-")
+                    gradeName = LCase(gradeName)
+                    imgName = makeModel & "-" & gradeName & ".jpg"
+                Else
+                    imgName = makeModel & "-image.jpg"
+                End If
+                
+                ' Export image
+                On Error Resume Next
+                shp.Copy
+                With ws.ChartObjects.Add(0, 0, shp.Width, shp.Height).Chart
+                    .Paste
+                    .Export imgPath & imgName
+                    .Parent.Delete
+                End With
+                On Error GoTo 0
+            End If
+        Next shp
+    Next ws
+    
+    MsgBox "Images extracted with cell-based naming!", vbInformation
+End Sub
+

@@ -1,0 +1,108 @@
+IMPROVED VBA MACRO FOR EXTRACTING IMAGES FROM EXCEL
+====================================================
+
+The previous VBA macro had issues extracting images properly. Use this improved version:
+
+Sub ExtractAllImagesImproved()
+    Dim ws As Worksheet
+    Dim shp As Shape
+    Dim imgPath As String
+    Dim imgName As String
+    Dim i As Integer
+    Dim sheetName As String
+    Dim makeModel As String
+    Dim imgFile As Object
+    
+    ' Set output path (same folder as Excel file)
+    imgPath = ThisWorkbook.Path & "\vehicle-images\"
+    
+    ' Create folder if it doesn't exist
+    If Dir(imgPath, vbDirectory) = "" Then
+        MkDir imgPath
+    End If
+    
+    ' Process each worksheet
+    For Each ws In ThisWorkbook.Worksheets
+        sheetName = ws.Name
+        
+        ' Skip city-named sheets (they don't contain vehicle images)
+        If LCase(sheetName) Like "*anuradhapura*" Or _
+           LCase(sheetName) Like "*colombo*" Or _
+           LCase(sheetName) Like "*kandy*" Or _
+           LCase(sheetName) Like "*matara*" Or _
+           LCase(sheetName) Like "*negambo*" Then
+            GoTo NextSheet
+        End If
+        
+        i = 1
+        
+        ' Extract make and model from sheet name
+        makeModel = Replace(Replace(sheetName, " - ", "-"), " ", "-")
+        makeModel = LCase(makeModel)
+        
+        ' Loop through all shapes (images) in the worksheet
+        For Each shp In ws.Shapes
+            ' Check if it's a picture
+            If shp.Type = msoPicture Or shp.Type = msoLinkedPicture Or shp.Type = msoLinkedPictureOLEEmbed Then
+                ' Generate filename: make-model-imagenumber.jpg
+                imgName = makeModel & "-" & Format(i, "00") & ".jpg"
+                
+                ' Export the image using Export method (more reliable)
+                On Error Resume Next
+                
+                ' Method 1: Try Export method (works for embedded pictures)
+                If shp.Type = msoPicture Then
+                    shp.Copy
+                    Dim tempChart As ChartObject
+                    Set tempChart = ws.ChartObjects.Add(0, 0, shp.Width, shp.Height)
+                    tempChart.Chart.Paste
+                    tempChart.Chart.Export imgPath & imgName, "JPG"
+                    tempChart.Delete
+                Else
+                    ' Method 2: For linked pictures, try to save directly
+                    shp.Copy
+                    Set tempChart = ws.ChartObjects.Add(0, 0, shp.Width, shp.Height)
+                    tempChart.Chart.Paste
+                    tempChart.Chart.Export imgPath & imgName, "JPG"
+                    tempChart.Delete
+                End If
+                
+                On Error GoTo 0
+                
+                ' Verify file was created and has content
+                If Dir(imgPath & imgName) <> "" Then
+                    Dim fileSize As Long
+                    fileSize = FileLen(imgPath & imgName)
+                    If fileSize < 1000 Then
+                        ' File too small, might be corrupted
+                        Kill imgPath & imgName
+                        Debug.Print "Warning: " & imgName & " is too small (" & fileSize & " bytes), skipped"
+                    Else
+                        Debug.Print "Extracted: " & imgName & " (" & fileSize & " bytes)"
+                        i = i + 1
+                    End If
+                End If
+            End If
+        Next shp
+        
+        If i > 1 Then
+            Debug.Print "Extracted " & (i - 1) & " image(s) from " & sheetName
+        End If
+        
+NextSheet:
+    Next ws
+    
+    MsgBox "Images extracted successfully!" & vbCrLf & _
+           "Location: " & imgPath & vbCrLf & _
+           "Please check the folder and verify image quality.", vbInformation
+End Sub
+
+INSTRUCTIONS:
+1. Open your Excel file
+2. Press Alt+F11 to open VBA editor
+3. Insert > Module
+4. Paste the code above
+5. Press F5 to run the macro
+6. Check the vehicle-images folder for extracted images
+7. Run: node scripts/fix-image-mapping.js to update data.ts
+

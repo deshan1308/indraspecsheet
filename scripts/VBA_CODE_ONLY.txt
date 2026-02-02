@@ -1,0 +1,57 @@
+Sub ExtractAllImages()
+    Dim ws As Worksheet
+    Dim shp As Shape
+    Dim imgPath As String
+    Dim imgName As String
+    Dim i As Integer
+    Dim sheetName As String
+    Dim makeModel As String
+    
+    ' Set output path (same folder as Excel file)
+    imgPath = ThisWorkbook.Path & "\vehicle-images\"
+    
+    ' Create folder if it doesn't exist
+    If Dir(imgPath, vbDirectory) = "" Then
+        MkDir imgPath
+    End If
+    
+    ' Process each worksheet
+    For Each ws In ThisWorkbook.Worksheets
+        sheetName = ws.Name
+        i = 1
+        
+        ' Extract make and model from sheet name
+        makeModel = Replace(Replace(sheetName, " - ", "-"), " ", "-")
+        makeModel = LCase(makeModel)
+        
+        ' Loop through all shapes (images) in the worksheet
+        For Each shp In ws.Shapes
+            ' Check if it's a picture
+            If shp.Type = msoPicture Or shp.Type = msoLinkedPicture Or shp.Type = msoLinkedPictureOLEEmbed Then
+                ' Generate filename: make-model-sheetname-imagenumber.jpg
+                imgName = makeModel & "-" & Format(i, "00") & ".jpg"
+                
+                ' Export the image
+                On Error Resume Next
+                shp.Copy
+                With ws.ChartObjects.Add(0, 0, shp.Width, shp.Height).Chart
+                    .Paste
+                    .Export imgPath & imgName
+                    .Parent.Delete
+                End With
+                On Error GoTo 0
+                
+                i = i + 1
+            End If
+        Next shp
+        
+        If i > 1 Then
+            Debug.Print "Extracted " & (i - 1) & " image(s) from " & sheetName
+        End If
+    Next ws
+    
+    MsgBox "Images extracted successfully!" & vbCrLf & _
+           "Location: " & imgPath & vbCrLf & _
+           "Please check the folder and rename images as needed.", vbInformation
+End Sub
+

@@ -1,0 +1,532 @@
+[
+  [
+    "",
+    "EX HYBRID",
+    "",
+    "EX 2WD CVT",
+    "",
+    "EX 2WD 5MT",
+    "",
+    "EX 4WD CVT"
+  ],
+  [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  [
+    "Description",
+    "A model that can be used for a wide range of purposes, from business to hobbies",
+    "",
+    "A model that can be used for a wide range of purposes, from business to hobbies",
+    "",
+    "A model that can be used for a wide range of purposes, from business to hobbies",
+    "",
+    "A model that can be used for a wide range of purposes, from business to hobbies"
+  ],
+  [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  [
+    "Engine Type",
+    "Hybrid / 1.5L ",
+    "",
+    "Gasoline / 1.5 L",
+    "",
+    "Gasoline / 1.5 L (best)",
+    "",
+    "Gasoline / 1.5 L"
+  ],
+  [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  [
+    "Transmission Type",
+    "CVT",
+    "",
+    "CVT",
+    "",
+    "5MT",
+    "",
+    "CVT "
+  ],
+  [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  [
+    "Engine type, number of cylinders and layout",
+    "Hybrid system, idling stop device, variable valve timing, electric power steering, electric continuously variable transmission, charging control",
+    "",
+    "Idling stop device, variable valve timing, electric power steering, automatic continuously variable transmission, charging control, mirror cycle",
+    "",
+    "Variable valve timing, electric power steering, charging control",
+    "",
+    "Variable valve timing, electric power steering, automatic continuously variable transmission, charging control"
+  ],
+  [
+    "Fuel consumption rate(km/L) *3",
+    27.8,
+    "",
+    19.8,
+    "",
+    17.2,
+    "",
+    15.6
+  ],
+  [
+    "Drive Type ",
+    "2WD FF",
+    "",
+    "2WD FF",
+    "",
+    "2WD FF",
+    "",
+    "4WD"
+  ],
+  [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  [
+    "Dimensions & weight ",
+    "Overall length (mm):4,400\r\nOverall width (mm):1,965\r\nOverall height (mm) *2: 1,475",
+    "",
+    "Overall length (mm):4,400\r\nOverall width (mm):1,965\r\nOverall height (mm) *2: 1,475",
+    "",
+    "Overall length (mm):4,400\r\nOverall width (mm):1,965\r\nOverall height (mm) *2: 1,475",
+    "",
+    "Overall length (mm):4,400\r\nOverall width (mm):1,965\r\nOverall height (mm) *2: 1,500"
+  ],
+  [
+    "",
+    "Interior dimensions (mm) *2  length/ width/ height:\r\n1,945/1,430/1,200",
+    "",
+    "Interior dimensions (mm) *2  length/ width/ height:\r\n1,795/1,300/1,200",
+    "",
+    "Interior dimensions (mm) *2  length/ width/ height:\r\n1,795/1,300/1,200",
+    "",
+    "Interior dimensions (mm) *3  length/ width/ height:\r\n1,795/1,300/1,200"
+  ],
+  [
+    "Gross Weight (Kg)",
+    1445,
+    "",
+    1395,
+    "",
+    1375,
+    "",
+    1445
+  ],
+  [
+    "",
+    " Minimum ground clearance (mm) * : 135",
+    "",
+    " Minimum ground clearance (mm) * : 135",
+    "",
+    " Minimum ground clearance (mm) * : 135",
+    "",
+    " Minimum ground clearance (mm) * : 135"
+  ],
+  [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  [
+    "Performance",
+    "Maximum power output KW (PS)/rpm net:\r\n54［74］/4,800",
+    "",
+    "Maximum power output KW (PS)/rpm net:\r\n80［109］/6,000",
+    "",
+    "Maximum power output KW (PS)/rpm net:\r\n80［109］/6,000",
+    "",
+    "Maximum power output KW (PS)/rpm net:\r\n76［103］/6,000"
+  ],
+  [
+    "",
+    "Maximum torque (Nm[kgf.m]/rpm) net:\r\n111[11.3]/3,600〜4,400",
+    "",
+    "Maximum torque (Nm[kgf.m]/rpm) net:\r\n136［13.9］/4,400",
+    "",
+    "Maximum torque (Nm[kgf.m]/rpm) net:\r\n138［14.1］/4,400",
+    "",
+    "Maximum torque (Nm[kgf.m]/rpm) net:\r\n132［13.5］/4,400"
+  ],
+  [
+    "",
+    "Maximum Moter power output KW (PS) net:\r\n45 [61}",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  [
+    "",
+    "Maximum Moter torque (Nm[kgf.m]) net:\r\n169 [17.9]",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  [
+    "Fuel tank capacity (L)",
+    36,
+    "",
+    42,
+    "",
+    42,
+    "",
+    42
+  ],
+  [
+    "Passenger Capacity ",
+    5,
+    "",
+    5,
+    "",
+    5,
+    "",
+    5
+  ],
+  [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  [
+    "Interior",
+    "Floor mats (luxury type)",
+    "",
+    "Floor mats (luxury type)",
+    "",
+    "Floor mats (luxury type)",
+    "",
+    "Floor mats (luxury type)"
+  ],
+  [
+    "",
+    "IR (infrared) cut film (rear side/back window",
+    "",
+    "IR (infrared) cut film (rear side/back window",
+    "",
+    "IR (infrared) cut film (rear side/back window",
+    "",
+    "IR (infrared) cut film (rear side/back window"
+  ],
+  [
+    "",
+    "Safe driving support cushion Luxury (Luxury type)",
+    "",
+    "Safe driving support cushion Luxury (Luxury type)",
+    "",
+    "Safe driving support cushion Luxury (Luxury type)",
+    "",
+    "Safe driving support cushion Luxury (Luxury type)"
+  ],
+  [
+    "",
+    "Safe Drive Support Cushion Basic (Basic Type)",
+    "",
+    "Safe Drive Support Cushion Basic (Basic Type)",
+    "",
+    "Safe Drive Support Cushion Basic (Basic Type)",
+    "",
+    "Safe Drive Support Cushion Basic (Basic Type)"
+  ],
+  [
+    "",
+    "Camera-integrated drive recorder DRT-H68A",
+    "",
+    "Camera-integrated drive recorder DRT-H68A",
+    "",
+    "Camera-integrated drive recorder DRT-H68A",
+    "",
+    "Camera-integrated drive recorder DRT-H68A"
+  ],
+  [
+    "",
+    "Basic Navi NMZK-W73D",
+    "",
+    "Basic Navi NMZK-W73D",
+    "",
+    "Basic Navi NMZK-W73D",
+    "",
+    "Basic Navi NMZK-W73D"
+  ],
+  [
+    "",
+    "Fabric (Black)/Black SEATS AND INTERIOR",
+    "",
+    "Fabric (Black)/Black SEATS",
+    "",
+    "Fabric (Black)/Black SEATS",
+    "",
+    "Fabric (Black)/Black SEATS"
+  ],
+  [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  [
+    "Exterior",
+    "Roof rails",
+    "",
+    "Roof rails",
+    "",
+    "Roof rails",
+    "",
+    "Roof rails"
+  ],
+  [
+    "",
+    "Rear door glass, rear quarter glass, back door glass, UV-cut privacy glass",
+    "",
+    "Rear door glass, rear quarter glass, back door glass, UV-cut privacy glass",
+    "",
+    "Rear door glass, rear quarter glass, back door glass, UV-cut privacy glass",
+    "",
+    "Rear door glass, rear quarter glass, back door glass, UV-cut privacy glass"
+  ],
+  [
+    "",
+    "LED fog lamps Vehicles with/without rear fog lamps",
+    "",
+    "LED fog lamps Vehicles with/without rear fog lamps",
+    "",
+    "LED fog lamps Vehicles with/without rear fog lamps",
+    "",
+    "LED fog lamps Vehicles with/without rear fog lamps"
+  ],
+  [
+    "",
+    "Side visor (RV wide)",
+    "",
+    "Side visor (RV wide)",
+    "",
+    "Side visor (RV wide)",
+    "",
+    "Side visor (RV wide)"
+  ],
+  [
+    "",
+    "Number frame (deluxe) fron,Rear",
+    "",
+    "Number frame (deluxe) fron,Rear",
+    "",
+    "Number frame (deluxe) fron,Rear",
+    "",
+    "Number frame (deluxe) fron,Rear"
+  ],
+  [
+    "",
+    "Mudguards",
+    "",
+    "Mudguards",
+    "",
+    "Mudguards",
+    "",
+    "Mudguards"
+  ],
+  [
+    "",
+    "System rack/base rack (roof rail type) Dealer installation",
+    "",
+    "System rack/base rack (roof rail type) Dealer installation",
+    "",
+    "System rack/base rack (roof rail type) Dealer installation",
+    "",
+    "System rack/base rack (roof rail type) Dealer installation"
+  ],
+  [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  [
+    "",
+    "*SOME EXTERIORS & INTERIOR ,WE Have to cuztermize",
+    "",
+    "*SOME EXTERIORS & INTERIOR ,WE Have to cuztermize",
+    "",
+    "*SOME EXTERIORS & INTERIOR ,WE Have to cuztermize",
+    "",
+    "*SOME EXTERIORS & INTERIOR ,WE Have to cuztermize"
+  ],
+  [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ]
+]

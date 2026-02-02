@@ -1,0 +1,890 @@
+{
+  "mapping": {
+    "g": [
+      "/eHEV Z・PLaY Package.jpg",
+      "/Indralogo.png"
+    ]
+  },
+  "grades": [
+    {
+      "id": "toyota",
+      "name": "Toyota",
+      "currentImageUrl": null
+    },
+    {
+      "id": "pixis-2025",
+      "name": "PIXIS 2025",
+      "currentImageUrl": null
+    },
+    {
+      "id": "toyota-pixis-g-sa-iii-",
+      "name": "Toyota - Pixis - G “SA III”",
+      "currentImageUrl": null
+    },
+    {
+      "id": "toyota-pixis-x-sa-iii-",
+      "name": "Toyota - Pixis - X ''SA III''",
+      "currentImageUrl": null
+    },
+    {
+      "id": "toyota-pixis-l-sa-iii-",
+      "name": "Toyota - Pixis - L ''SA III''",
+      "currentImageUrl": null
+    },
+    {
+      "id": "toyota-pixis-b-sa-iii-",
+      "name": "Toyota - Pixis - B ''SA III''",
+      "currentImageUrl": null
+    },
+    {
+      "id": "aqua-2025",
+      "name": "AQUA 2025",
+      "currentImageUrl": null
+    },
+    {
+      "id": "toyota-aqua-special-edition-z-raffine",
+      "name": "TOYOTA - AQUA - SPECIAL EDITION Z RAFFINE",
+      "currentImageUrl": null
+    },
+    {
+      "id": "toyota-aqua-z",
+      "name": "TOYOTA - AQUA - Z",
+      "currentImageUrl": null
+    },
+    {
+      "id": "toyota-aqua-g",
+      "name": "TOYOTA - AQUA - G",
+      "currentImageUrl": null
+    },
+    {
+      "id": "toyota-aqua-x",
+      "name": "TOYOTA - AQUA - X",
+      "currentImageUrl": null
+    },
+    {
+      "id": "toyota-aqua-gr-sport",
+      "name": "TOYOTA - AQUA - GR SPORT",
+      "currentImageUrl": null
+    },
+    {
+      "id": "yaris-2025",
+      "name": "YARIS 2025",
+      "currentImageUrl": null
+    },
+    {
+      "id": "toyota-yaris-g",
+      "name": "TOYOTA - YARIS - G",
+      "currentImageUrl": null
+    },
+    {
+      "id": "toyota-yaris-x",
+      "name": "TOYOTA - YARIS - X",
+      "currentImageUrl": null
+    },
+    {
+      "id": "roomy-2025",
+      "name": "ROOMY 2025",
+      "currentImageUrl": null
+    },
+    {
+      "id": "toyota-roomy-custom-gt",
+      "name": "TOYOTA - ROOMY - CUSTOM GT",
+      "currentImageUrl": null
+    },
+    {
+      "id": "toyota-roomy-custom-g",
+      "name": "TOYOTA - ROOMY - CUSTOM - G",
+      "currentImageUrl": null
+    },
+    {
+      "id": "toyota-roomy-gt",
+      "name": "TOYOTA - ROOMY - GT",
+      "currentImageUrl": null
+    },
+    {
+      "id": "toyota-roomy-g",
+      "name": "TOYOTA - ROOMY - G",
+      "currentImageUrl": null
+    },
+    {
+      "id": "toyota-roomy-x",
+      "name": "TOYOTA - ROOMY - X",
+      "currentImageUrl": null
+    },
+    {
+      "id": "corolla-axio-2025",
+      "name": "COROLLA   AXIO 2025",
+      "currentImageUrl": null
+    },
+    {
+      "id": "toyota-corolla-axio-ex",
+      "name": "TOYOTA - COROLLA AXIO - EX",
+      "currentImageUrl": null
+    },
+    {
+      "id": "corolla-2025",
+      "name": "COROLLA 2025",
+      "currentImageUrl": null
+    },
+    {
+      "id": "toyota-corolla-wxb",
+      "name": "TOYOTA - COROLLA - WXB",
+      "currentImageUrl": null
+    },
+    {
+      "id": "toyota-corolla-g",
+      "name": "TOYOTA - COROLLA - G",
+      "currentImageUrl": null
+    },
+    {
+      "id": "toyota-corolla-x",
+      "name": "TOYOTA - COROLLA - X",
+      "currentImageUrl": null
+    },
+    {
+      "id": "prius-2025",
+      "name": "PRIUS 2025",
+      "currentImageUrl": null
+    },
+    {
+      "id": "toyota-prius-x",
+      "name": "TOYOTA - PRIUS - X",
+      "currentImageUrl": null
+    },
+    {
+      "id": "toyota-prius-u",
+      "name": "TOYOTA - PRIUS - U",
+      "currentImageUrl": null
+    },
+    {
+      "id": "raize-2025",
+      "name": "RAIZE 2025",
+      "currentImageUrl": null
+    },
+    {
+      "id": "toyota-raize-z",
+      "name": "TOYOTA - RAIZE - Z",
+      "currentImageUrl": null
+    },
+    {
+      "id": "toyota-raize-g",
+      "name": "TOYOTA - RAIZE - G",
+      "currentImageUrl": null
+    },
+    {
+      "id": "toyota-raize-x",
+      "name": "TOYOTA - RAIZE - X",
+      "currentImageUrl": null
+    },
+    {
+      "id": "yaris-cross-2025",
+      "name": "YARIS CROSS 2025",
+      "currentImageUrl": null
+    },
+    {
+      "id": "toyota-yaris-cross-gr-sport",
+      "name": "TOYOTA - YARIS CROSS - GR SPORT",
+      "currentImageUrl": null
+    },
+    {
+      "id": "toyota-yaris-cross-z-adventure",
+      "name": "TOYOTA - YARIS CROSS - Z ADVENTURE",
+      "currentImageUrl": null
+    },
+    {
+      "id": "toyota-yaris-cross-z",
+      "name": "TOYOTA - YARIS CROSS - Z",
+      "currentImageUrl": null
+    },
+    {
+      "id": "toyota-yaris-cross-g",
+      "name": "TOYOTA - YARIS CROSS - G",
+      "currentImageUrl": null
+    },
+    {
+      "id": "toyota-yaris-cross-x",
+      "name": "TOYOTA - YARIS CROSS - X",
+      "currentImageUrl": null
+    },
+    {
+      "id": "corolla-cross-2025",
+      "name": "COROLLA CROSS 2025",
+      "currentImageUrl": null
+    },
+    {
+      "id": "toyota-corolla-cross-z",
+      "name": "TOYOTA - COROLLA CROSS - Z",
+      "currentImageUrl": null
+    },
+    {
+      "id": "toyota-corolla-cross-s",
+      "name": "TOYOTA - COROLLA CROSS - S",
+      "currentImageUrl": null
+    },
+    {
+      "id": "toyota-corolla-cross-g",
+      "name": "TOYOTA - COROLLA CROSS - G",
+      "currentImageUrl": null
+    },
+    {
+      "id": "toyota-corolla-cross-g-x-",
+      "name": "TOYOTA - COROLLA CROSS - G“X”",
+      "currentImageUrl": null
+    },
+    {
+      "id": "rav-4-2025",
+      "name": "RAV 4 2025",
+      "currentImageUrl": null
+    },
+    {
+      "id": "toyota-rav-4-z",
+      "name": "TOYOTA - RAV 4 - Z",
+      "currentImageUrl": null
+    },
+    {
+      "id": "toyota-rav-4-g",
+      "name": "TOYOTA - RAV 4 - G",
+      "currentImageUrl": null
+    },
+    {
+      "id": "toyota-rav-4-adventure",
+      "name": "TOYOTA - RAV 4 - Adventure",
+      "currentImageUrl": null
+    },
+    {
+      "id": "toyota-rav-4-g-z-package-",
+      "name": "TOYOTA - RAV 4 - G “Z package”",
+      "currentImageUrl": null
+    },
+    {
+      "id": "toyota-rav-4-x",
+      "name": "TOYOTA - RAV 4 - X",
+      "currentImageUrl": null
+    },
+    {
+      "id": "sienta-2025",
+      "name": "SIENTA 2025",
+      "currentImageUrl": null
+    },
+    {
+      "id": "toyota-sienta-z",
+      "name": "TOYOTA SIENTA - Z",
+      "currentImageUrl": null
+    },
+    {
+      "id": "toyota-sienta-g",
+      "name": "TOYOTA SIENTA - G",
+      "currentImageUrl": null
+    },
+    {
+      "id": "toyota-sienta-x",
+      "name": "TOYOTA SIENTA - X",
+      "currentImageUrl": null
+    },
+    {
+      "id": "corolla-touring",
+      "name": "COROLLA TOURING",
+      "currentImageUrl": null
+    },
+    {
+      "id": "toyota-corolla-touring-w-x-b",
+      "name": "TOYOTA COROLLA TOURING - W X B",
+      "currentImageUrl": null
+    },
+    {
+      "id": "toyota-corolla-touring-g",
+      "name": "TOYOTA COROLLA TOURING - G",
+      "currentImageUrl": null
+    },
+    {
+      "id": "toyota-corolla-touring-x",
+      "name": "TOYOTA COROLLA TOURING - X",
+      "currentImageUrl": null
+    },
+    {
+      "id": "corolla-filder",
+      "name": "COROLLA FILDER",
+      "currentImageUrl": null
+    },
+    {
+      "id": "ex-hybrid",
+      "name": "EX HYBRID",
+      "currentImageUrl": null
+    },
+    {
+      "id": "ex-2wd-cvt",
+      "name": "EX 2WD CVT",
+      "currentImageUrl": null
+    },
+    {
+      "id": "ex-2wd-5mt",
+      "name": "EX 2WD 5MT",
+      "currentImageUrl": null
+    },
+    {
+      "id": "ex-4wd-cvt",
+      "name": "EX 4WD CVT",
+      "currentImageUrl": null
+    },
+    {
+      "id": "unknown",
+      "name": "Unknown",
+      "currentImageUrl": null
+    },
+    {
+      "id": "toyota-yaris-cross-hev-premium-luxury-thailand-",
+      "name": "Toyota Yaris Cross  HEV Premium Luxury (Thailand)",
+      "currentImageUrl": null
+    },
+    {
+      "id": "gr-sport-3-3l-diesel-5-seater-",
+      "name": "GR SPORT 3.3L Diesel (5-seater)",
+      "currentImageUrl": null
+    },
+    {
+      "id": "zx-3-3l-diesel-5seats-",
+      "name": "ZX 3.3L Diesel (5seats)",
+      "currentImageUrl": null
+    },
+    {
+      "id": "gr-sport-3-5l-petrol-7-seater-",
+      "name": "GR SPORT 3.5L petrol (7-seater)",
+      "currentImageUrl": null
+    },
+    {
+      "id": "zx-3-5l-petrol-7-seater-",
+      "name": "ZX 3.5L petrol (7-seater)",
+      "currentImageUrl": null
+    },
+    {
+      "id": "vx-3-5l-petrol-7-seater-",
+      "name": "VX 3.5L petrol (7-seater)",
+      "currentImageUrl": null
+    },
+    {
+      "id": "ax-3-5l-petrol-7-seater-",
+      "name": "AX 3.5L petrol (7-seater)",
+      "currentImageUrl": null
+    },
+    {
+      "id": "gx-3-5l-gasoline-5-seater-",
+      "name": "GX 3.5L gasoline (5-seater)",
+      "currentImageUrl": null
+    },
+    {
+      "id": "zx-diesel-4wd-7-seater-",
+      "name": "ZX(diesel, 4WD, 7-seater)",
+      "currentImageUrl": null
+    },
+    {
+      "id": "vx-diesel-petrol-4wd-7-seater-",
+      "name": "VX(diesel/Petrol 4WD, 7-seater)",
+      "currentImageUrl": null
+    },
+    {
+      "id": "gx-diesel-4wd-5-seater-",
+      "name": "GX(diesel 4WD, 5-seater)",
+      "currentImageUrl": null
+    },
+    {
+      "id": "double-cab-4x4-2-8-gr-sport-at",
+      "name": "Double Cab 4x4 2.8 GR Sport AT",
+      "currentImageUrl": null
+    },
+    {
+      "id": "double-cab-4x4-2-8-rocco-at",
+      "name": "Double Cab 4x4 2.8 Rocco AT",
+      "currentImageUrl": null
+    },
+    {
+      "id": "suzuki",
+      "name": "Suzuki",
+      "currentImageUrl": null
+    },
+    {
+      "id": "alto",
+      "name": "ALTO",
+      "currentImageUrl": null
+    },
+    {
+      "id": "suzuki-alto-hybrid-x",
+      "name": "SUZUKI - ALTO - HYBRID - X",
+      "currentImageUrl": null
+    },
+    {
+      "id": "suzuki-alto-hybrid-s",
+      "name": "SUZUKI - ALTO - HYBRID - S",
+      "currentImageUrl": null
+    },
+    {
+      "id": "suzuki-alto-l",
+      "name": "SUZUKI - ALTO - L",
+      "currentImageUrl": null
+    },
+    {
+      "id": "suzuki-alto-a",
+      "name": "SUZUKI - ALTO - A",
+      "currentImageUrl": null
+    },
+    {
+      "id": "spacia",
+      "name": "SPACIA",
+      "currentImageUrl": null
+    },
+    {
+      "id": "spacia-custom-hybrid-xs-turbo",
+      "name": "Spacia Custom HYBRID XS TURBO",
+      "currentImageUrl": null
+    },
+    {
+      "id": "spacia-custom-hybrid-xs",
+      "name": "Spacia Custom HYBRID XS",
+      "currentImageUrl": null
+    },
+    {
+      "id": "spacia-custom-hybrid-gs",
+      "name": "Spacia Custom HYBRID GS",
+      "currentImageUrl": null
+    },
+    {
+      "id": "spacia-hybrid-x",
+      "name": "SPACIA HYBRID X",
+      "currentImageUrl": null
+    },
+    {
+      "id": "spacia-hybrid-g",
+      "name": "SPACIA HYBRID G",
+      "currentImageUrl": null
+    },
+    {
+      "id": "every",
+      "name": "EVERY",
+      "currentImageUrl": null
+    },
+    {
+      "id": "join-turbo-high-roof-2wd-cvt",
+      "name": "JOIN Turbo (High Roof) 2WD/CVT",
+      "currentImageUrl": null
+    },
+    {
+      "id": "join-high-roof-2wd-cvt",
+      "name": "JOIN (High Roof) 2WD/CVT",
+      "currentImageUrl": null
+    },
+    {
+      "id": "pc-high-roof-2wd-cvt",
+      "name": "PC (high roof) 2WD/CVT",
+      "currentImageUrl": null
+    },
+    {
+      "id": "pa-limited-high-roof-2wd-cvt",
+      "name": "PA Limited (high roof)2WD/CVT",
+      "currentImageUrl": null
+    },
+    {
+      "id": "pa-high-roof-2wd-4at",
+      "name": "PA (high roof)2WD/4AT",
+      "currentImageUrl": null
+    },
+    {
+      "id": "unknown",
+      "name": "Unknown",
+      "currentImageUrl": null
+    },
+    {
+      "id": "stingray-hybrid-t",
+      "name": "Stingray - HYBRID T",
+      "currentImageUrl": null
+    },
+    {
+      "id": "custom-z-hybrid-zt",
+      "name": "Custom Z - HYBRID ZT",
+      "currentImageUrl": null
+    },
+    {
+      "id": "custom-z-hybrid-zx",
+      "name": "Custom Z - HYBRID ZX",
+      "currentImageUrl": null
+    },
+    {
+      "id": "hybrid-fx-s",
+      "name": "HYBRID FX-S",
+      "currentImageUrl": null
+    },
+    {
+      "id": "fx",
+      "name": "FX",
+      "currentImageUrl": null
+    },
+    {
+      "id": "tough-wild-turbo",
+      "name": "Tough Wild Turbo",
+      "currentImageUrl": null
+    },
+    {
+      "id": "tough-wild",
+      "name": "Tough Wild",
+      "currentImageUrl": null
+    },
+    {
+      "id": "hybrid-g-turbo",
+      "name": "HYBRID G Turbo",
+      "currentImageUrl": null
+    },
+    {
+      "id": "hybrid-g",
+      "name": "HYBRID G",
+      "currentImageUrl": null
+    },
+    {
+      "id": "hybrid-x-turbo",
+      "name": "HYBRID X Turbo",
+      "currentImageUrl": null
+    },
+    {
+      "id": "hybrid-x",
+      "name": "HYBRID X",
+      "currentImageUrl": null
+    },
+    {
+      "id": "hybrid-mz",
+      "name": "HYBRID MZ",
+      "currentImageUrl": null
+    },
+    {
+      "id": "hybrid-mx",
+      "name": "HYBRID MX",
+      "currentImageUrl": null
+    },
+    {
+      "id": "gasoline-xg",
+      "name": "GASOLINE XG",
+      "currentImageUrl": null
+    },
+    {
+      "id": "xc-4wd-5mt",
+      "name": "XC  4WD/5MT",
+      "currentImageUrl": null
+    },
+    {
+      "id": "xc-4wd-4at",
+      "name": "XC  4WD/4AT",
+      "currentImageUrl": null
+    },
+    {
+      "id": "xl-4wd-5mt",
+      "name": "XL  4WD/5MT",
+      "currentImageUrl": null
+    },
+    {
+      "id": "xl-4wd-4at",
+      "name": "XL  4WD/4AT",
+      "currentImageUrl": null
+    },
+    {
+      "id": "xg-4wd-5mt",
+      "name": "XG  4WD/5MT",
+      "currentImageUrl": null
+    },
+    {
+      "id": "xg-4wd-4at",
+      "name": "XG  4WD/4AT",
+      "currentImageUrl": null
+    },
+    {
+      "id": "hybrid-mv",
+      "name": "HYBRID MV",
+      "currentImageUrl": null
+    },
+    {
+      "id": "kx",
+      "name": "KX",
+      "currentImageUrl": null
+    },
+    {
+      "id": "kc-air-conditioning-power-steering",
+      "name": "KC air conditioning, power steering",
+      "currentImageUrl": null
+    },
+    {
+      "id": "kc-air-conditioning-power-steering-farm",
+      "name": "KC Air Conditioning Power Steering Farm",
+      "currentImageUrl": null
+    },
+    {
+      "id": "daihatsu",
+      "name": "Daihatsu",
+      "currentImageUrl": null
+    },
+    {
+      "id": "unknown",
+      "name": "Unknown",
+      "currentImageUrl": null
+    },
+    {
+      "id": "g-turbo-dark-chrome-venture",
+      "name": "G - TURBO DARK CHROME VENTURE",
+      "currentImageUrl": null
+    },
+    {
+      "id": "g-turbo-chrome-venture",
+      "name": "G - TURBO  CHROME VENTURE",
+      "currentImageUrl": null
+    },
+    {
+      "id": "g-turbo",
+      "name": "G - TURBO",
+      "currentImageUrl": null
+    },
+    {
+      "id": "g-dark-chrome-venture",
+      "name": "G DARK CHROME VENTURE",
+      "currentImageUrl": null
+    },
+    {
+      "id": "g-chrome-venture",
+      "name": "G  CHROME VENTURE",
+      "currentImageUrl": null
+    },
+    {
+      "id": "g",
+      "name": "G",
+      "currentImageUrl": null
+    },
+    {
+      "id": "x-turbo",
+      "name": "X - TURBO",
+      "currentImageUrl": null
+    },
+    {
+      "id": "x",
+      "name": "X",
+      "currentImageUrl": null
+    },
+    {
+      "id": "premium-g-hev",
+      "name": "Premium G HEV",
+      "currentImageUrl": null
+    },
+    {
+      "id": "xhev",
+      "name": "XHEV",
+      "currentImageUrl": null
+    },
+    {
+      "id": "premium-g",
+      "name": "Premium G",
+      "currentImageUrl": null
+    },
+    {
+      "id": "l",
+      "name": "L",
+      "currentImageUrl": null
+    },
+    {
+      "id": "honda",
+      "name": "Honda",
+      "currentImageUrl": null
+    },
+    {
+      "id": "vezel",
+      "name": "Vezel",
+      "currentImageUrl": null
+    },
+    {
+      "id": "ehev-z-play-package",
+      "name": "e:HEV Z・PLaY Package",
+      "currentImageUrl": "/eHEV Z・PLaY Package.jpg"
+    },
+    {
+      "id": "ehev-z",
+      "name": "e:HEV Z",
+      "currentImageUrl": "/eHEV Z.jpg"
+    },
+    {
+      "id": "nissan",
+      "name": "Nissan",
+      "currentImageUrl": null
+    },
+    {
+      "id": "unknown",
+      "name": "Unknown",
+      "currentImageUrl": null
+    },
+    {
+      "id": "g-e-4orce-4wd-",
+      "name": "G e-4ORCE (4WD)",
+      "currentImageUrl": null
+    },
+    {
+      "id": "x-e-4orce-xtreme-x-3-row-4wd-",
+      "name": "X e-4ORCE Xtreme X [3-row] (4WD)",
+      "currentImageUrl": null
+    },
+    {
+      "id": "x-e-4orce-xtreme-x-2-row-4wd-",
+      "name": "X e-4ORCE Xtreme X [2-row] (4WD)",
+      "currentImageUrl": null
+    },
+    {
+      "id": "x-e-4orce-3-row-4wd-",
+      "name": "X e-4ORCE [3-row] (4WD)",
+      "currentImageUrl": null
+    },
+    {
+      "id": "x-e-4orce-2-row-4wd-",
+      "name": "X e-4ORCE [2-row] (4WD)",
+      "currentImageUrl": null
+    },
+    {
+      "id": "s-e-4orce-4wd-",
+      "name": "S e-4ORCE (4WD)",
+      "currentImageUrl": null
+    },
+    {
+      "id": "clipper-rio-g",
+      "name": "Clipper Rio G",
+      "currentImageUrl": null
+    },
+    {
+      "id": "clipper-rio-e",
+      "name": "Clipper Rio E",
+      "currentImageUrl": null
+    },
+    {
+      "id": "gx-turbo",
+      "name": "GX Turbo",
+      "currentImageUrl": null
+    },
+    {
+      "id": "gx",
+      "name": "GX",
+      "currentImageUrl": null
+    },
+    {
+      "id": "dx-gl-package",
+      "name": "DX GL Package",
+      "currentImageUrl": null
+    },
+    {
+      "id": "dx",
+      "name": "DX",
+      "currentImageUrl": null
+    },
+    {
+      "id": "mazda",
+      "name": "Mazda",
+      "currentImageUrl": null
+    },
+    {
+      "id": "scrum",
+      "name": "SCRUM",
+      "currentImageUrl": null
+    },
+    {
+      "id": "buster",
+      "name": "BUSTER",
+      "currentImageUrl": null
+    },
+    {
+      "id": "pc",
+      "name": "PC",
+      "currentImageUrl": null
+    },
+    {
+      "id": "pa-s",
+      "name": "PA-S",
+      "currentImageUrl": null
+    },
+    {
+      "id": "pa",
+      "name": "PA",
+      "currentImageUrl": null
+    },
+    {
+      "id": "mitsubishi",
+      "name": "Mitsubishi",
+      "currentImageUrl": null
+    },
+    {
+      "id": "unknown",
+      "name": "Unknown",
+      "currentImageUrl": null
+    },
+    {
+      "id": "p-executive-package-7-seater-5-seater-",
+      "name": "P Executive Package\\r\\n(7-seater/5-seater)",
+      "currentImageUrl": null
+    },
+    {
+      "id": "p-7-seater-5-seater-",
+      "name": "P (7-seater/5-seater)",
+      "currentImageUrl": null
+    },
+    {
+      "id": "g-7-seater-5-seater-",
+      "name": "G (7-seater/5-seater)",
+      "currentImageUrl": null
+    },
+    {
+      "id": "m-5-seater-",
+      "name": "M (5-seater)",
+      "currentImageUrl": null
+    },
+    {
+      "id": "ford",
+      "name": "Ford",
+      "currentImageUrl": null
+    },
+    {
+      "id": "ranger-raptor-",
+      "name": "RANGER(RAPTOR)",
+      "currentImageUrl": null
+    },
+    {
+      "id": "ranger-double-cab-raptor-3-0l",
+      "name": "Ranger Double Cab Raptor 3.0L",
+      "currentImageUrl": null
+    },
+    {
+      "id": "ranger-double-cab-raptor-2-0l",
+      "name": "Ranger Double Cab Raptor 2.0L",
+      "currentImageUrl": null
+    },
+    {
+      "id": "kia",
+      "name": "Kia",
+      "currentImageUrl": null
+    },
+    {
+      "id": "unknown",
+      "name": "Unknown",
+      "currentImageUrl": null
+    },
+    {
+      "id": "kia-sonet-gtx-plus",
+      "name": "Kia Sonet GTX Plus",
+      "currentImageUrl": null
+    },
+    {
+      "id": "foton",
+      "name": "Foton",
+      "currentImageUrl": null
+    },
+    {
+      "id": "bus",
+      "name": "Bus",
+      "currentImageUrl": null
+    },
+    {
+      "id": "foton-bj6946",
+      "name": "Foton BJ6946",
+      "currentImageUrl": null
+    },
+    {
+      "id": "37-seater",
+      "name": "37 Seater",
+      "currentImageUrl": null
+    }
+  ]
+}

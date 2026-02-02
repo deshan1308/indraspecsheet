@@ -1,0 +1,546 @@
+[
+  [
+    "",
+    "KX",
+    "",
+    "KC air conditioning, power steering",
+    "",
+    "KC Air Conditioning Power Steering Farm"
+  ],
+  [
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  [
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  [
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  [
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  [
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  [
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  [
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  [
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  [
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  [
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  [
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  [
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  [
+    "Engine Type",
+    "0.658 / GASOLINE",
+    "",
+    "0.658 / GASOLINE",
+    "",
+    "0.658 / GASOLINE"
+  ],
+  [
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  [
+    "Transmission Type",
+    "5MT/4AT",
+    "",
+    "5MT/4AT",
+    "",
+    "5MT/4AT"
+  ],
+  [
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  [
+    "Engine type, number of cylinders and layout",
+    "R06A type water-cooled in-line 3-cylinder",
+    "",
+    "R06A type water-cooled in-line 3-cylinder",
+    "",
+    "R06A type water-cooled in-line 3-cylinder"
+  ],
+  [
+    "Fuel consumption rate(km/L) *3",
+    18.7,
+    "",
+    18.7,
+    "",
+    18.7
+  ],
+  [
+    "Drive Type ",
+    "2WD/4WD (rear two-wheel drive) / High/low speed two-stage switching\r\n4WD",
+    "",
+    "2WD/4WD (rear two-wheel drive)",
+    "",
+    "High/low two-speed part-time 4WD"
+  ],
+  [
+    "Main Brake Type",
+    "DISK break - Front ,  REAR - Leading/Trailing ( drum brakes )",
+    "",
+    "DISK - BEFORE ,  REAR - Leading/Trailing",
+    "",
+    "DISK - BEFORE ,  REAR - Leading/Trailing"
+  ],
+  [
+    "Dimensions & weight ",
+    "Overall length (mm):3,395\r\nOverall width (mm):1,475\r\nOverall height (mm) *1: 1,765",
+    "",
+    "Overall length (mm):3,395\r\nOverall width (mm):1,475\r\nOverall height (mm) *1: 1,765",
+    "",
+    "Overall length (mm):3,395\r\nOverall width (mm):1,475\r\nOverall height (mm) *1: 1,765"
+  ],
+  [
+    "",
+    "Cargo bed dimensions (mm) * length/ width/ height:\r\n1,940/1,410/290",
+    "",
+    "Cargo bed dimensions (mm) * length/ width/ height:\r\n1,940/1,410/290",
+    "",
+    "Cargo bed dimensions (mm) * length/ width/ height:\r\n1,940/1,410/290"
+  ],
+  [
+    "",
+    "Vehicle weight (kg):730",
+    "",
+    "Vehicle weight (kg):730",
+    "",
+    "Vehicle weight (kg):730"
+  ],
+  [
+    "",
+    " Minimum ground clearance (mm) *1: 160",
+    "",
+    " Minimum ground clearance (mm) *1: 160",
+    "",
+    " Minimum ground clearance (mm) *1: 160"
+  ],
+  [
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  [
+    " Suspension method",
+    "BEFORE - MacPherson strut coil spring, AFTER - Leaf spring",
+    "",
+    "BEFORE - MacPherson strut coil spring, AFTER - Leaf spring",
+    "",
+    "BEFORE - MacPherson strut coil spring, AFTER - Leaf spring"
+  ],
+  [
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  [
+    " Tire",
+    "145/80R12 80/78N LT",
+    "",
+    "145/80R12 80/78N LT",
+    "",
+    "145/80R12 80/78N LT"
+  ],
+  [
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  [
+    "Fuel tank capacity (L)",
+    34,
+    "",
+    34,
+    "",
+    34
+  ],
+  [
+    "Passenger Capacity ",
+    2,
+    "",
+    2,
+    "",
+    2
+  ],
+  [
+    "Maximum load capacity (kg)",
+    350,
+    "",
+    350,
+    "",
+    350
+  ],
+  [
+    "Interior",
+    "Air conditioner [with air filter]",
+    "",
+    "Air conditioner [with air filter]",
+    "",
+    "Air conditioner [with air filter]"
+  ],
+  [
+    "",
+    "Power steering",
+    "",
+    "Power steering",
+    "",
+    "Power steering"
+  ],
+  [
+    "",
+    "Power windows [lock mechanism/driver's seat auto/anti-pinch mechanism included]",
+    "",
+    "Power windows [lock mechanism/driver's seat auto/anti-pinch mechanism included]",
+    "",
+    "Power windows [lock mechanism/driver's seat auto/anti-pinch mechanism included]"
+  ],
+  [
+    "",
+    "Power door lock *5",
+    "",
+    "Power door lock *5",
+    "",
+    "Power door lock *5"
+  ],
+  [
+    "",
+    "Urethane steering wheel",
+    "",
+    "Urethane steering wheel",
+    "",
+    "Urethane steering wheel"
+  ],
+  [
+    "",
+    "LED meter panel lighting",
+    "",
+    "LED meter panel lighting",
+    "",
+    "LED meter panel lighting"
+  ],
+  [
+    "",
+    "3-position LED room lamp",
+    "",
+    "3-position LED room lamp",
+    "",
+    "3-position LED room lamp"
+  ],
+  [
+    "",
+    "Molded door trim [with armrest]",
+    "",
+    "Molded door trim [with armrest]",
+    "",
+    "Molded door trim [with armrest]"
+  ],
+  [
+    "",
+    "Fabric seat covering",
+    "",
+    "Vinyl leather seat covering",
+    "",
+    "Vinyl leather seat covering"
+  ],
+  [
+    "",
+    "Odometer/trip meter [LCD]",
+    "",
+    "Odometer/trip meter [LCD]",
+    "",
+    "Odometer/trip meter [LCD]"
+  ],
+  [
+    "",
+    "Engine oil change notification function,Fuel level warning light,Entry and exit grips (driver's seat, passenger seat)",
+    "",
+    "Engine oil change notification function,Fuel level warning light,Entry and exit grips (driver's seat, passenger seat)",
+    "",
+    "Engine oil change notification function,Fuel level warning light,Entry and exit grips (driver's seat, passenger seat)"
+  ],
+  [
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  [
+    "Exterior",
+    "Angle post [with guard bar] *6",
+    "",
+    "Angle post [with guard bar] *6",
+    "",
+    "Angle post [with guard bar] *6"
+  ],
+  [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "Angle Post Protector"
+  ],
+  [
+    "",
+    "Angle post hooks (4 locations)",
+    "",
+    "Angle post hooks (4 locations)",
+    "",
+    "Angle post hooks (4 locations)"
+  ],
+  [
+    "",
+    "Cargo step (driver's side)",
+    "",
+    "Cargo step (driver's side)",
+    "",
+    "Cargo step (driver's side)"
+  ],
+  [
+    "",
+    "Cargo step (passenger side)",
+    "",
+    "Cargo step (passenger side)",
+    "",
+    "Cargo step (passenger side)"
+  ],
+  [
+    "",
+    "LED Bed Work Light",
+    "",
+    "",
+    "",
+    "LED Bed Work Light"
+  ],
+  [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "Upper Member Guard"
+  ],
+  [
+    "",
+    "Rear gate chain",
+    "",
+    "",
+    "",
+    "Rear gate chain"
+  ],
+  [
+    "",
+    "Cargo Rope Hook[19 locations]",
+    "",
+    "Cargo Rope Hook[19 locations]",
+    "",
+    "Cargo Rope Hook[19 locations]"
+  ],
+  [
+    "",
+    "Hooks for flat bed sheet [2 places] *7",
+    "",
+    "Hooks for flat bed sheet [2 places] *7",
+    "",
+    "Hooks for flat bed sheet [2 places] *7"
+  ],
+  [
+    "",
+    "Rear gate with hook",
+    "",
+    "Rear gate with hook",
+    "",
+    "Rear gate with hook"
+  ],
+  [
+    "",
+    "Plated front garnish",
+    "",
+    "Plated front garnish",
+    "",
+    "Plated front garnish"
+  ],
+  [
+    "",
+    "Chrome-plated fog lamp bezel",
+    "",
+    "",
+    "",
+    ""
+  ],
+  [
+    "",
+    "Coloured door mirrors",
+    "",
+    "",
+    "",
+    ""
+  ],
+  [
+    "",
+    "Plated door handle",
+    "",
+    "",
+    "",
+    ""
+  ],
+  [
+    "",
+    "Colored bumper *8",
+    "",
+    "Colored bumper *8",
+    "",
+    "Colored bumper *8"
+  ],
+  [
+    "",
+    "Mudflaps (front, rear)",
+    "",
+    "Mudflaps (front, rear)",
+    "",
+    "Mudflaps (front, rear)"
+  ],
+  [
+    "",
+    "12 inch radial tires",
+    "",
+    "12 inch radial tires",
+    "",
+    "12 inch radial tires"
+  ],
+  [
+    "",
+    "Pillar Antenna(145/80R12 80/78N LT)",
+    "",
+    "Pillar Antenna(145/80R12 80/78N LT)",
+    "",
+    "Pillar Antenna(145/80R12 80/78N LT)"
+  ],
+  [
+    "",
+    "LED headlamp [with manual leveling mechanism],Front multi-reflector halogen fog lamps",
+    "",
+    "Multi-reflector halogen headlamp [with manual leveling mechanism]",
+    "",
+    "Multi-reflector halogen headlamp [with manual leveling mechanism]"
+  ],
+  [
+    "special Features",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  [
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  [
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ]
+]
