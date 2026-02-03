@@ -158,13 +158,40 @@ function extractFuelType(
   gradeName: string,
   specifications: Specification[]
 ): string[] {
-  // First try explicit mapping (MOST ACCURATE - use this exclusively if found)
+  const gradeLower = gradeName.toLowerCase();
+  const modelLower = modelName.toLowerCase();
+  
+  // PRIORITY 1: Check grade name FIRST - it often contains explicit fuel type (e.g., "3.3L Diesel", "3.5L petrol")
+  // Grade names are the most reliable source as they explicitly state the fuel type
+  // Check in order: Electric -> Hybrid -> Diesel -> Petrol/Gasoline
+  
+  // 1. Electric (most specific)
+  if (gradeLower.includes("electric") || gradeLower.includes(" ev ") || gradeLower.includes("ev ") || gradeLower.includes(" ev") || gradeLower.includes("battery")) {
+    return ["Electric"];
+  }
+  
+  // 2. Hybrid (check before diesel/petrol)
+  if (gradeLower.includes("hybrid") || gradeLower.includes("hev") || gradeLower.includes("ehev") || gradeLower.includes("e:hev") || gradeLower.includes("phev")) {
+    return ["Hybrid"];
+  }
+  
+  // 3. Diesel (check before petrol)
+  if (gradeLower.includes("diesel")) {
+    return ["Diesel"];
+  }
+  
+  // 4. Petrol/Gasoline (check last)
+  if (gradeLower.includes("petrol") || gradeLower.includes("gasoline") || gradeLower.includes("gas")) {
+    return ["Petrol"];
+  }
+  
+  // PRIORITY 2: Try explicit mapping (as fallback if grade name doesn't have fuel type)
   const mapping = getVehicleMapping(makeName, modelName, gradeName);
   if (mapping && mapping.fuelType) {
     return [normalizeFuelType(mapping.fuelType)];
   }
   
-  // Fallback to pattern matching (only if no mapping found)
+  // Fallback to pattern matching (only if no mapping found and grade name doesn't have fuel type)
   // Check in order of specificity to avoid false matches
   const fuelValues = getSpecValues(specifications, "fuel", "type");
   const engineValues = getSpecValues(specifications, "engine", "type");
@@ -180,41 +207,130 @@ function extractFuelType(
     .toLowerCase();
 
   const allValues = [...fuelValues, ...engineValues, allText].join(" ").toLowerCase();
+  
+  // Combine all sources for checking
+  const combinedCheck = `${allValues} ${gradeLower} ${modelLower}`;
 
   // Check in order of specificity - most specific first
   // 1. Check for Electric (most specific)
-  if (allValues.includes("electric") || allValues.includes("ev") || allValues.includes("battery")) {
+  if (
+    combinedCheck.includes("electric") || 
+    combinedCheck.includes(" ev ") || 
+    combinedCheck.includes("ev ") ||
+    combinedCheck.includes(" ev") ||
+    combinedCheck.includes("battery") ||
+    combinedCheck.includes("e-power") ||
+    combinedCheck.includes("e:power")
+  ) {
     return ["Electric"];
   }
   
-  // 2. Check for Hybrid (includes PHEV, HEV, eHEV)
-  if (
-    allValues.includes("hybrid") ||
-    allValues.includes("hev") ||
-    allValues.includes("ehev") ||
-    allValues.includes("e:hev") ||
-    allValues.includes("phev")
-  ) {
+  // 2. Check for Hybrid (includes PHEV, HEV, eHEV, e:HEV) - must check before diesel/petrol
+  // Check for hybrid indicators in various formats
+  const hybridPatterns = [
+    "hybrid",
+    "hev",
+    "ehev",
+    "e:hev",
+    "phev",
+    "mild hybrid",
+    "strong hybrid",
+    "e:hev",
+    "e-hev"
+  ];
+  
+  const isHybrid = hybridPatterns.some(pattern => combinedCheck.includes(pattern));
+  
+  if (isHybrid) {
     return ["Hybrid"];
   }
   
   // 3. Check for Diesel (must check before petrol to avoid false matches)
-  // Check grade name and model name too for diesel indicators
-  const gradeLower = gradeName.toLowerCase();
-  const modelLower = modelName.toLowerCase();
-  const combinedCheck = `${allValues} ${gradeLower} ${modelLower}`;
+  // Look for diesel indicators but exclude hybrid diesel
+  const dieselPatterns = [
+    "diesel",
+    "tdi", // Turbocharged Direct Injection (diesel)
+    "crdi", // Common Rail Direct Injection (diesel)
+    "dci", // Direct Common-rail Injection (diesel)
+    "common rail", // Common rail is typically diesel
+    "direct injection" // When combined with diesel context
+  ];
   
-  if (combinedCheck.includes("diesel") || gradeLower.includes("diesel") || modelLower.includes("diesel")) {
-    // Make sure it's not a hybrid diesel (which would be Hybrid)
-    if (!combinedCheck.includes("hybrid") && !combinedCheck.includes("hev")) {
-      return ["Diesel"];
-    }
+  const hasDiesel = dieselPatterns.some(pattern => combinedCheck.includes(pattern));
+  
+  if (hasDiesel && !isHybrid) {
+    return ["Diesel"];
   }
   
   // 4. Check for Petrol/Gasoline (default for most vehicles)
-  if (allValues.includes("petrol") || allValues.includes("gasoline") || allValues.includes("gas")) {
-    // Make sure it's not a hybrid petrol (which would be Hybrid)
-    if (!allValues.includes("hybrid") && !allValues.includes("hev")) {
+  // Look for petrol/gasoline indicators but exclude hybrid petrol
+  const petrolPatterns = [
+    "petrol",
+    "gasoline",
+    "gas",
+    "turbo petrol",
+    "turbocharged petrol",
+    "turbo gasoline",
+    "turbocharged gasoline",
+    "boosterjet", // Suzuki turbo petrol
+    "gdi", // Gasoline Direct Injection
+    "mpi" // Multi-Point Injection (petrol)
+  ];
+  
+  const hasPetrol = petrolPatterns.some(pattern => combinedCheck.includes(pattern));
+  
+  // Special handling for "turbo" - check if it's diesel turbo or petrol turbo
+  const hasTurbo = combinedCheck.includes("turbo") || combinedCheck.includes("turbocharged");
+  
+  if (hasPetrol && !isHybrid && !hasDiesel) {
+    return ["Petrol"];
+  }
+  
+  // If turbo is mentioned but no explicit fuel type, check context
+  if (hasTurbo && !hasPetrol && !hasDiesel && !isHybrid) {
+    // Turbo without diesel mention is usually petrol
+    // But if diesel indicators are present, it's diesel
+    const dieselIndicators = ["common rail", "tdi", "crdi", "dci"];
+    const hasDieselIndicators = dieselIndicators.some(ind => combinedCheck.includes(ind));
+    
+    if (hasDieselIndicators) {
+      return ["Diesel"];
+    }
+    // Otherwise assume petrol for turbo engines
+    return ["Petrol"];
+  }
+  
+  // 6. If engine type contains only numbers and "cc" or "l" without fuel type, check context
+  // This handles cases like "658CC" or "1.0L" without explicit fuel type
+  const engineTypePattern = /(\d+(?:\.\d+)?)\s*(?:cc|l|liter)/i;
+  const engineTypeMatch = combinedCheck.match(engineTypePattern);
+  
+  if (engineTypeMatch && !hasPetrol && !hasDiesel && !isHybrid) {
+    // Check if there are any diesel-specific indicators we might have missed
+    const dieselIndicators = ["common rail", "direct injection", "tdi", "crdi", "dci"];
+    const hasDieselIndicators = dieselIndicators.some(ind => combinedCheck.includes(ind));
+    
+    if (hasDieselIndicators) {
+      return ["Diesel"];
+    }
+    
+    // If we found an engine size but no fuel type, and it's not hybrid/electric/diesel, assume Petrol
+    // Most engines without explicit fuel type are petrol (especially smaller engines)
+    // But only if we're confident it's not diesel
+    return ["Petrol"];
+  }
+
+  // 7. Final fallback: If we have an engine type value but couldn't determine fuel type
+  // Check the engine values more carefully
+  if (engineValues.length > 0) {
+    const engineValueLower = engineValues.join(" ").toLowerCase();
+    
+    // Check for explicit fuel mentions in engine value
+    if (engineValueLower.includes("diesel") && !engineValueLower.includes("hybrid")) {
+      return ["Diesel"];
+    }
+    if ((engineValueLower.includes("petrol") || engineValueLower.includes("gasoline") || engineValueLower.includes("gas")) 
+        && !engineValueLower.includes("hybrid")) {
       return ["Petrol"];
     }
   }
@@ -690,16 +806,17 @@ export function scoreVehicle(
 
   // Fuel type filter - STRICT: Exclude if doesn't match
   if (filters.fuelType && filters.fuelType.length > 0) {
-    // PRIORITY: Use mapping if available (most accurate)
-    // If mapping exists, use ONLY the mapping fuel type (don't use pattern matching)
-    const actualFuelType = mapping ? mapping.fuelType : null;
-    const normalizedFuelType = actualFuelType ? normalizeFuelType(actualFuelType) : null;
+    // Get the vehicle's fuel type - prioritize extraction (which checks grade name first)
+    // then fall back to mapping if extraction didn't find anything
+    const extractedFuelType = fuelTypes.length > 0 ? fuelTypes[0] : null;
+    const mappedFuelType = mapping ? mapping.fuelType : null;
+    const normalizedMappedFuelType = mappedFuelType ? normalizeFuelType(mappedFuelType) : null;
     
     // Determine the vehicle's fuel type:
-    // 1. If mapping exists, use normalized mapping fuel type
-    // 2. Otherwise, use extracted fuel types (already normalized)
-    // 3. Extract only the first/primary fuel type (extractFuelType now returns single type)
-    const vehicleFuelType = normalizedFuelType || (fuelTypes.length > 0 ? fuelTypes[0] : null);
+    // 1. Use extracted fuel type first (checks grade name which is most reliable)
+    // 2. If extraction found nothing, use normalized mapping fuel type
+    // 3. If both are unavailable, exclude the vehicle
+    const vehicleFuelType = extractedFuelType || normalizedMappedFuelType;
     
     // If we can't determine fuel type, exclude the vehicle when filter is active
     if (!vehicleFuelType || vehicleFuelType === "Unknown") {
@@ -708,10 +825,10 @@ export function scoreVehicle(
     
     // Check if vehicle's fuel type matches ANY of the selected fuel types (STRICT exact match)
     let hasMatchingFuel = false;
-    const vehicleFuelTypeLower = vehicleFuelType.toLowerCase();
+    const vehicleFuelTypeLower = vehicleFuelType.toLowerCase().trim();
     
     for (const filterFt of filters.fuelType) {
-      const filterFtLower = filterFt.toLowerCase();
+      const filterFtLower = filterFt.toLowerCase().trim();
       
       // STRICT EXACT MATCH: Vehicle fuel type must exactly match filter fuel type
       if (vehicleFuelTypeLower === filterFtLower) {
@@ -1338,11 +1455,11 @@ export function getVehicleMatches(
           grade,
           filters
         );
-        // Only include vehicles that:
-        // 1. Have a percentage >= 1% (matched at least some filters)
-        // 2. OR have matched at least one filter (matchedFilters.length > 0)
-        // This ensures we show vehicles from 100% down to 1%
-        if (match.score >= 1 || match.matchedFilters.length > 0) {
+        
+        // STRICT FILTERING: Only include vehicles with score > 0
+        // The scoreVehicle function returns score: 0 when a vehicle doesn't match
+        // a required filter (like fuel type or body type), so we exclude those
+        if (match.score > 0) {
           matches.push(match);
         }
       }

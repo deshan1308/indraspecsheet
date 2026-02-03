@@ -17,6 +17,18 @@ const USERS = [
     password: "user123",
     email: "user@example.com",
   },
+  {
+    id: "3",
+    username: "tier-2",
+    password: "indra@tier2",
+    email: "tier2@example.com",
+  },
+  {
+    id: "4",
+    username: "digital-marketing",
+    password: "indra@dmkt",
+    email: "digitalmarketing@example.com",
+  },
 ];
 
 export async function POST(request: NextRequest) {

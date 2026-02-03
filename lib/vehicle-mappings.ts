@@ -199,7 +199,7 @@ export const vehicleMappings: Record<string, VehicleMapping> = {
   "DAIHATSU TAFT|Unknown|X": { bodyType: "Hatchback", fuelType: "Gasoline", passengerCapacity: 5, year: 2025 },
   "DAIHATSU TAFT|Unknown|X - TURBO": { bodyType: "Hatchback", fuelType: "Gasoline (Turbo)", passengerCapacity: 5, year: 2025 },
   "FORD|RANGER(RAPTOR)|Ranger Double Cab Raptor 2.0L": { bodyType: "Double Cab", fuelType: "Diesel", passengerCapacity: 5, year: 2025 },
-  "FORD|RANGER(RAPTOR)|Ranger Double Cab Raptor 3.0L": { bodyType: "Double Cab", fuelType: "Diesel", passengerCapacity: 5, year: 2025 },
+  "FORD|RANGER(RAPTOR)|Ranger Double Cab Raptor 3.0L": { bodyType: "Double Cab", fuelType: "Petrol", passengerCapacity: 5, year: 2025 },
   "FOTON|Bus|37 Seater": { bodyType: "Bus", fuelType: "Gasoline", passengerCapacity: 37, year: 2025 },
   "FOTON|Bus|Foton BJ6946": { bodyType: "Bus", fuelType: "Gasoline", passengerCapacity: 5, year: 2025 },
   "HONDA CITY|Unknown|Honda City": { bodyType: "Car", fuelType: "Gasoline", passengerCapacity: 5, year: 2025 },
