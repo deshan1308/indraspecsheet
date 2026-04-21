@@ -3,38 +3,19 @@ import jwt from "jsonwebtoken";
 
 const JWT_SECRET = process.env.JWT_SECRET || "your-secret-key-change-in-production";
 
-// Mock user database
+// Mock user database: branch logins + legacy accounts
 const USERS = [
-  {
-    id: "1",
-    username: "admin",
-    password: "admin123",
-    email: "admin@example.com",
-  },
-  {
-    id: "2",
-    username: "user",
-    password: "user123",
-    email: "user@example.com",
-  },
-  {
-    id: "3",
-    username: "tier-2",
-    password: "indra@tier2",
-    email: "tier2@example.com",
-  },
-  {
-    id: "4",
-    username: "digital-marketing",
-    password: "indra@dmkt",
-    email: "digitalmarketing@example.com",
-  },
-  {
-    id: "5",
-    username: "tier-1",
-    password: "indra@tier1",
-    email: "tier1@example.com",
-  },
+  { id: "1", username: "colombo", password: "colombo@123", email: "colombo@local" },
+  { id: "2", username: "kandy", password: "kandy@123", email: "kandy@local" },
+  { id: "3", username: "kelaniya", password: "kelaniya@123", email: "kelaniya@local" },
+  { id: "4", username: "negombo", password: "negombo@123", email: "negombo@local" },
+  { id: "5", username: "matara", password: "matara@123", email: "matara@local" },
+  { id: "6", username: "anuradhapura", password: "anuradhapura@123", email: "anuradhapura@local" },
+  { id: "7", username: "admin", password: "admin123", email: "admin@example.com" },
+  { id: "8", username: "user", password: "user123", email: "user@example.com" },
+  { id: "9", username: "tier-2", password: "indra@tier2", email: "tier2@example.com" },
+  { id: "10", username: "digital-marketing", password: "indra@dmkt", email: "digitalmarketing@example.com" },
+  { id: "11", username: "tier-1", password: "indra@tier1", email: "tier1@example.com" },
 ];
 
 export async function POST(request: NextRequest) {

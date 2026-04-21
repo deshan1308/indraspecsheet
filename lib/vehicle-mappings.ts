@@ -131,6 +131,8 @@ export const vehicleMappings: Record<string, VehicleMapping> = {
   "Suzuki|Wagon R|ZX": { bodyType: "Kei Car", fuelType: "Gasoline", passengerCapacity: 4, year: 2025 },
   "Suzuki|Wagon R|ZT": { bodyType: "Kei Car", fuelType: "Gasoline", passengerCapacity: 4, year: 2025 },
   "Suzuki|Wagon R|T": { bodyType: "Kei Car", fuelType: "Gasoline", passengerCapacity: 4, year: 2025 },
+  "Suzuki|Wagon R|ZL": { bodyType: "Kei Car", fuelType: "Gasoline", passengerCapacity: 4, year: 2025 },
+  "Suzuki|Wagon R|HYBRID ZX": { bodyType: "Kei Car", fuelType: "Hybrid", passengerCapacity: 4, year: 2025 },
   
   // Suzuki Swift
   "Suzuki|Swift|MZ": { bodyType: "Hatchback", fuelType: "Hybrid", passengerCapacity: 5, year: 2025 },
@@ -168,6 +170,12 @@ export const vehicleMappings: Record<string, VehicleMapping> = {
   "Nissan|X-Trail|S": { bodyType: "Midsize SUV", fuelType: "Hybrid", passengerCapacity: 5, year: 2025 },
   "Nissan|X-Trail|X": { bodyType: "Midsize SUV", fuelType: "Hybrid", passengerCapacity: 5, year: 2025 },
   "Nissan|X-Trail|G": { bodyType: "Midsize SUV", fuelType: "Hybrid", passengerCapacity: 5, year: 2025 },
+
+  // Nissan Dayz
+  "Nissan|Dayz|Highway Star G Turbo": { bodyType: "Hatchback", fuelType: "Hybrid", passengerCapacity: 4, year: 2025 },
+  "Nissan|Dayz|Highway Star X": { bodyType: "Hatchback", fuelType: "Hybrid", passengerCapacity: 4, year: 2025 },
+  "Nissan|Dayz|X": { bodyType: "Hatchback", fuelType: "Gasoline", passengerCapacity: 4, year: 2025 },
+  "Nissan|Dayz|S": { bodyType: "Hatchback", fuelType: "Gasoline", passengerCapacity: 4, year: 2025 },
   
   // Toyota Hilux (Double Cab)
   "Toyota|Hilux|Double Cab 4x4 2.8 GR Sport AT": { bodyType: "Double Cab", fuelType: "Diesel", passengerCapacity: 5, year: 2025 },

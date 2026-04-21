@@ -6722,6 +6722,314 @@ export const makes: Make[] = [
         ],
       },
       {
+        id: "dayz",
+        name: "Dayz",
+        grades: [
+          {
+            id: "dayz-highway-star-g-turbo",
+            name: "Highway Star G Turbo",
+            imageUrl: "/Days Highway Star G Turbo.png",
+            specifications: [
+              {
+                category: "General Information",
+                items: [
+                  { name: "Engine Type", value: "660cc Intercooler Turbo + Hybrid" },
+                  { name: "Transmission Type", value: "CVT" },
+                  {
+                    name: "Engine type, number of cylinders and layout",
+                    value: "DOHC water-cooled inline 3-cylinder",
+                  },
+                  { name: "Drive Type", value: "2WD" },
+                  { name: "Passenger Capacity", value: "4" },
+                ],
+              },
+              {
+                category: "Performance",
+                items: [
+                  { name: "Maximum power (kW (PS)/rpm)", value: "47 (64) / 5,600" },
+                ],
+              },
+              {
+                category: "Dimensions & Weight",
+                items: [
+                  { name: "Length × Width × Height", value: "3395 mm × 1475 mm × 1650 mm" },
+                  { name: "Ground clearance", value: "155 mm" },
+                  { name: "Fuel tank capacity", value: "27 L" },
+                ],
+              },
+              {
+                category: "Interior",
+                items: [
+                  { name: "Seat material", value: "Synthetic leather" },
+                  { name: "Height-adjustable headrests (front seats)", value: "Included" },
+                  { name: "Headrest (rear seat)", value: "Included" },
+                  { name: "Chrome inner door handle", value: "Included" },
+                  { name: "Speakers", value: "6 speakers" },
+                  { name: "Air conditioning", value: "Automatic" },
+                  { name: "Leather-wrapped steering wheel", value: "Included" },
+                  {
+                    name: "Advanced Drive Assist Display",
+                    value: "4.2-inch color display",
+                  },
+                ],
+              },
+              {
+                category: "Exterior",
+                items: [
+                  { name: "Headlamps", value: "LED" },
+                  { name: "Fog lights", value: "LED" },
+                  { name: "Wheels", value: "15-inch aluminum wheels" },
+                  {
+                    name: "Highway Star exclusive exterior",
+                    value: "Aero Bumper Design",
+                  },
+                  { name: "Outside door handles", value: "Colored" },
+                  { name: "Exterior finish", value: "Two tone" },
+                ],
+              },
+              {
+                category: "Safety Features",
+                items: [
+                  { name: "SRS airbag system", value: "Included" },
+                  { name: "ABS (Anti-lock Braking System)", value: "Included" },
+                  { name: "Brake assist", value: "Included" },
+                  { name: "BSW (Blind Spot Warning)", value: "Included" },
+                  {
+                    name: "Intelligent LI (Lane Departure Prevention Assist System)",
+                    value: "Included",
+                  },
+                ],
+              },
+            ],
+          },
+          {
+            id: "dayz-highway-star-x",
+            name: "Highway Star X",
+            imageUrl: "/Days Highway Star X.png",
+            specifications: [
+              {
+                category: "General Information",
+                items: [
+                  { name: "Engine Type", value: "660cc + Hybrid" },
+                  { name: "Transmission Type", value: "CVT" },
+                  {
+                    name: "Engine type, number of cylinders and layout",
+                    value: "DOHC water-cooled inline 3-cylinder",
+                  },
+                  { name: "Drive Type", value: "2WD" },
+                  { name: "Passenger Capacity", value: "4" },
+                ],
+              },
+              {
+                category: "Performance",
+                items: [
+                  { name: "Maximum power (kW (PS)/rpm)", value: "38 (52) / 6,400" },
+                ],
+              },
+              {
+                category: "Dimensions & Weight",
+                items: [
+                  { name: "Length × Width × Height", value: "3395 mm × 1475 mm × 1650 mm" },
+                  { name: "Ground clearance", value: "155 mm" },
+                  { name: "Fuel tank capacity", value: "27 L" },
+                ],
+              },
+              {
+                category: "Interior",
+                items: [
+                  { name: "Seat material", value: "Tricot / Black" },
+                  { name: "Height-adjustable headrests (front seats)", value: "Included" },
+                  { name: "Headrest (rear seat)", value: "Included" },
+                  { name: "Chrome inner door handle", value: "Included" },
+                  { name: "Speakers", value: "6 speakers" },
+                  { name: "Air conditioning", value: "Automatic" },
+                  { name: "Leather-wrapped steering wheel", value: "Included" },
+                  {
+                    name: "Advanced Drive Assist Display",
+                    value: "4.2-inch color display",
+                  },
+                ],
+              },
+              {
+                category: "Exterior",
+                items: [
+                  { name: "Headlamps", value: "LED" },
+                  { name: "Fog lights", value: "LED" },
+                  { name: "Wheels", value: "14-inch aluminum wheels" },
+                  {
+                    name: "Highway Star exclusive exterior",
+                    value: "Aero Bumper Design",
+                  },
+                  { name: "Outside door handles", value: "Colored" },
+                  { name: "Exterior finish", value: "Two tone" },
+                ],
+              },
+              {
+                category: "Safety Features",
+                items: [
+                  { name: "SRS airbag system", value: "Included" },
+                  { name: "ABS (Anti-lock Braking System)", value: "Included" },
+                  { name: "Brake assist", value: "Included" },
+                  { name: "BSW (Blind Spot Warning)", value: "Included" },
+                  {
+                    name: "Intelligent LI (Lane Departure Prevention Assist System)",
+                    value: "Included",
+                  },
+                ],
+              },
+            ],
+          },
+          {
+            id: "dayz-x",
+            name: "X",
+            imageUrl: "/Days X.png",
+            specifications: [
+              {
+                category: "General Information",
+                items: [
+                  { name: "Engine Type", value: "660cc Petrol Engine" },
+                  { name: "Transmission Type", value: "CVT" },
+                  {
+                    name: "Engine type, number of cylinders and layout",
+                    value: "DOHC water-cooled inline 3-cylinder",
+                  },
+                  { name: "Drive Type", value: "2WD" },
+                  { name: "Passenger Capacity", value: "4" },
+                ],
+              },
+              {
+                category: "Performance",
+                items: [
+                  { name: "Maximum power (kW (PS)/rpm)", value: "38 (52) / 6,400" },
+                ],
+              },
+              {
+                category: "Dimensions & Weight",
+                items: [
+                  { name: "Length × Width × Height", value: "3395 mm × 1475 mm × 1650 mm" },
+                  { name: "Ground clearance", value: "155 mm" },
+                  { name: "Fuel tank capacity", value: "27 L" },
+                ],
+              },
+              {
+                category: "Interior",
+                items: [
+                  { name: "Seat material", value: "Tricot / Ivory" },
+                  { name: "Height-adjustable headrests (front seats)", value: "Included" },
+                  { name: "Headrest (rear seat)", value: "Included" },
+                  { name: "Chrome inner door handle", value: "Not included" },
+                  { name: "Speakers", value: "6 speakers" },
+                  { name: "Air conditioning", value: "Automatic" },
+                  { name: "Leather-wrapped steering wheel", value: "Not included" },
+                  {
+                    name: "Advanced Drive Assist Display",
+                    value: "4.2-inch color display",
+                  },
+                ],
+              },
+              {
+                category: "Exterior",
+                items: [
+                  { name: "Headlamps", value: "Halogen" },
+                  { name: "Fog lights", value: "Not included" },
+                  { name: "Wheels", value: "14-inch aluminum wheels" },
+                  { name: "Bumper design", value: "Regular" },
+                  { name: "Outside door handles", value: "Colored" },
+                  { name: "Exterior finish", value: "Two tone" },
+                ],
+              },
+              {
+                category: "Safety Features",
+                items: [
+                  { name: "SRS airbag system", value: "Included" },
+                  { name: "ABS (Anti-lock Braking System)", value: "Included" },
+                  { name: "Brake assist", value: "Included" },
+                  { name: "BSW (Blind Spot Warning)", value: "Not included" },
+                  {
+                    name: "Intelligent LI (Lane Departure Prevention Assist System)",
+                    value: "Included",
+                  },
+                ],
+              },
+            ],
+          },
+          {
+            id: "dayz-s",
+            name: "S",
+            imageUrl: "/Days S.png",
+            specifications: [
+              {
+                category: "General Information",
+                items: [
+                  { name: "Engine Type", value: "660cc Petrol Engine" },
+                  { name: "Transmission Type", value: "CVT" },
+                  {
+                    name: "Engine type, number of cylinders and layout",
+                    value: "DOHC water-cooled inline 3-cylinder",
+                  },
+                  { name: "Drive Type", value: "2WD" },
+                  { name: "Passenger Capacity", value: "4" },
+                ],
+              },
+              {
+                category: "Performance",
+                items: [
+                  { name: "Maximum power (kW (PS)/rpm)", value: "38 (52) / 6,400" },
+                ],
+              },
+              {
+                category: "Dimensions & Weight",
+                items: [
+                  { name: "Length × Width × Height", value: "3395 mm × 1475 mm × 1650 mm" },
+                  { name: "Ground clearance", value: "155 mm" },
+                  { name: "Fuel tank capacity", value: "27 L" },
+                ],
+              },
+              {
+                category: "Interior",
+                items: [
+                  { name: "Seat material", value: "Tricot / Ivory" },
+                  { name: "Height-adjustable headrests (front seats)", value: "Included" },
+                  { name: "Headrest (rear seat)", value: "Included" },
+                  { name: "Chrome inner door handle", value: "Not included" },
+                  { name: "Speakers", value: "2 speakers" },
+                  { name: "Air conditioning", value: "Manual" },
+                  { name: "Leather-wrapped steering wheel", value: "Not included" },
+                  {
+                    name: "Advanced Drive Assist Display",
+                    value: "4.2-inch color display",
+                  },
+                ],
+              },
+              {
+                category: "Exterior",
+                items: [
+                  { name: "Headlamps", value: "Halogen" },
+                  { name: "Fog lights", value: "Not included" },
+                  { name: "Wheels", value: "14-inch wheel cups" },
+                  { name: "Bumper design", value: "Regular" },
+                  { name: "Outside door handles", value: "Colored" },
+                  { name: "Exterior finish", value: "Mono tone" },
+                ],
+              },
+              {
+                category: "Safety Features",
+                items: [
+                  { name: "SRS airbag system", value: "Included" },
+                  { name: "ABS (Anti-lock Braking System)", value: "Included" },
+                  { name: "Brake assist", value: "Included" },
+                  { name: "BSW (Blind Spot Warning)", value: "Not included" },
+                  {
+                    name: "Intelligent LI (Lane Departure Prevention Assist System)",
+                    value: "Included",
+                  },
+                ],
+              },
+            ],
+          },
+        ],
+      },
+      {
         id: "almera",
         name: "Almera",
         grades: [
@@ -7744,6 +8052,161 @@ export const makes: Make[] = [
                   { name: "Colored door handles", value: "Included" },
                   { name: "Wheels", value: "14 inch full wheel cap" },
                   { name: "Radial tires", value: "[165/55R15]" },
+                ],
+              },
+            ],
+          },
+          {
+            id: "wagon-r-zl",
+            name: "ZL",
+            imageUrl: "/ZL.png",
+            specifications: [
+              {
+                category: "General Information",
+                items: [
+                  { name: "Engine Type", value: "0.657/gasoline" },
+                  { name: "Transmission Type", value: "CVT" },
+                  { name: "Fuel Consumption", value: "24.2 km/L" },
+                  {
+                    name: "Engine type, number of cylinders and layout",
+                    value: "Water-cooled 4-stroke inline 3-cylinder",
+                  },
+                  { name: "Ground Clearance", value: "130 mm" },
+                  { name: "Drive Type", value: "2WD (front two-wheel drive)" },
+                  { name: "Passenger Capacity", value: "4" },
+                ],
+              },
+              {
+                category: "Dimensions & Weight",
+                items: [
+                  { name: "Overall length (mm)", value: "3,395" },
+                  { name: "Overall width (mm)", value: "1,475" },
+                  { name: "Overall height (mm) *1", value: "1,650" },
+                  { name: "Vehicle weight (kg)", value: "770" },
+                ],
+              },
+              {
+                category: "Performance",
+                items: [
+                  { name: "Maximum power output (kW/rpm) net", value: "36〈49PS〉/6,500" },
+                  { name: "Maximum torque (N・m/rpm) net", value: "58〈5.9kg・m〉/5,000" },
+                ],
+              },
+              {
+                category: "Interior",
+                items: [
+                  { name: "Steering wheel", value: "Multi Function steering wheel (New Design)" },
+                  {
+                    name: "Meter & display",
+                    value: "Self illuminating meter & 4.2 inch multi information display (New Design)",
+                  },
+                  { name: "Instrument panel garnish", value: "Bordeaux instrument panel garnish" },
+                  { name: "Front door armrest", value: "[BLACK]" },
+                  { name: "Inside door handle", value: "[BLACK]" },
+                  { name: "Front bench seat", value: "[with center armrest]" },
+                ],
+              },
+              {
+                category: "Exterior",
+                items: [
+                  { name: "Styling", value: "New Facelift" },
+                  { name: "Headlights", value: "LED Scoop Headlights" },
+                  { name: "Wheels", value: "14 inch Wheel cups" },
+                ],
+              },
+              {
+                category: "Colors",
+                items: [
+                  { name: "Body colors", value: "Velvet Dark Red Pearl" },
+                  { name: "Body colors", value: "Lucent Beige Pearl Metallic" },
+                  { name: "Body colors", value: "Nocturne Blue Pearl" },
+                  { name: "Body colors", value: "Denim Blue Metallic" },
+                  { name: "Body colors", value: "Bluish Black Pearl" },
+                  { name: "Body colors", value: "Pure White Pearl" },
+                  { name: "Body colors", value: "Steel Silver Metallic" },
+                  { name: "Body colors", value: "White" },
+                ],
+              },
+            ],
+          },
+          {
+            id: "wagon-r-hybrid-zx",
+            name: "HYBRID ZX",
+            imageUrl: "/HYBRID ZX.png",
+            specifications: [
+              {
+                category: "General Information",
+                items: [
+                  { name: "Engine Type", value: "0.657/gasoline" },
+                  { name: "Transmission Type", value: "CVT" },
+                  { name: "Fuel Consumption", value: "25.1 km/L" },
+                  {
+                    name: "Engine type, number of cylinders and layout",
+                    value: "Water-cooled 4-stroke inline 3-cylinder + Hybrid Motor",
+                  },
+                  { name: "Ground Clearance", value: "135 mm" },
+                  { name: "Drive Type", value: "2WD (front two-wheel drive)" },
+                  { name: "Passenger Capacity", value: "4" },
+                ],
+              },
+              {
+                category: "Dimensions & Weight",
+                items: [
+                  { name: "Overall length (mm)", value: "3,395" },
+                  { name: "Overall width (mm)", value: "1,475" },
+                  { name: "Overall height (mm) *1", value: "1,650" },
+                  { name: "Vehicle weight (kg)", value: "810" },
+                ],
+              },
+              {
+                category: "Performance",
+                items: [
+                  { name: "Maximum power output (kW/rpm) net", value: "36〈49PS〉/6,500" },
+                  { name: "Maximum torque (N・m/rpm) net", value: "58〈5.9kg・m〉/5,000" },
+                  { name: "Motor Maximum power (kW/rpm)", value: "1.9〈2.6PS〉/1,500" },
+                  { name: "Motor Maximum torque (Nm/rpm)", value: "40〈4.1kg･m〉/100" },
+                ],
+              },
+              {
+                category: "Interior",
+                items: [
+                  { name: "Steering wheel", value: "Multi Function steering wheel (New Design)" },
+                  {
+                    name: "Meter & display",
+                    value: "Self illuminating meter & 4.2 inch multi information display (New Design)",
+                  },
+                  { name: "Instrument panel garnish", value: "Graphite dark grey instrument panel garnish" },
+                  { name: "Eco-drive assist lighting", value: "Included" },
+                  { name: "Cruise Control", value: "Included" },
+                  { name: "Front door armrest", value: "[BLACK]" },
+                  { name: "Inside door handle", value: "[BLACK]" },
+                  { name: "Front bench seat", value: "[with center armrest]" },
+                ],
+              },
+              {
+                category: "Exterior",
+                items: [
+                  { name: "Styling", value: "New Facelift" },
+                  { name: "Headlamps", value: "LED Headlamps" },
+                  { name: "Wheels", value: "15 inch Alloy wheels" },
+                  { name: "Hybrid Emblem", value: "In the rear" },
+                  { name: "Front bumper", value: "[New shape]" },
+                  { name: "Rear bumper", value: "[New shape]" },
+                  { name: "Fog Lamps", value: "Included" },
+                  { name: "Side under spoiler", value: "Included" },
+                  { name: "Roof end spoiler", value: "Included" },
+                ],
+              },
+              {
+                category: "Colors",
+                items: [
+                  { name: "Body colors", value: "Velvet Dark Red Pearl" },
+                  { name: "Body colors", value: "Lucent Beige Pearl Metallic" },
+                  { name: "Body colors", value: "Nocturne Blue Pearl" },
+                  { name: "Body colors", value: "Denim Blue Metallic" },
+                  { name: "Body colors", value: "Bluish Black Pearl" },
+                  { name: "Body colors", value: "Pure White Pearl" },
+                  { name: "Body colors", value: "Steel Silver Metallic" },
                 ],
               },
             ],
